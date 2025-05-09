@@ -28,7 +28,7 @@ I love tackling complex problems, learning new skills, and collaborating with di
 
 ### [Troco]
 
-![Screenshots](https://github.com/user-attachments/assets/d220b30f-e6a0-4fb1-9a37-317f26e7b73c)![2 (1)](https://github.com/user-attachments/assets/723aaf56-5d3b-4956-865c-2b560a345f5c)
+![Screenshots](https://github.com/user-attachments/assets/fbbd17b9-547d-4ee2-b8b0-5621cd1250c6)
 
 
 **[Project 1 Title]** is a **[brief project description]** built with **[technologies used]**. This project demonstrates my ability to **[skills demonstrated by the project]**. You can check out the repository [here](project_1_repository_link).
