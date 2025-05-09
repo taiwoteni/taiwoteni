@@ -26,8 +26,6 @@ I love tackling complex problems, learning new skills, and collaborating with di
 
 ## Get in Touch 📬
 
-- **[Personal Website / Blog]**(your_website_or_blog_link)
-- **[LinkedIn]**(your_linkedin_profile_link)
-- **[Twitter]**(your_twitter_profile_link)
+- **[LinkedIn]**(https://www.linkedin.com/in/teninlanimi-taiwo)
 
 
