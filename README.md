@@ -24,13 +24,12 @@ I love tackling complex problems, learning new skills, and collaborating with di
 ![Spring](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
 
-*Replace the above skill badges with your own skills and expertise. To create more badges, use [checkout this repo](https://github.com/alexandresanlim/Badges4-README.md-Profile).*
+## Projects I've Pioneered
 
-## Featured Projects 💻
+### [Troco]
 
-### [Project 1 Title](project_1_link)
+![Screenshots](https://github.com/user-attachments/assets/d220b30f-e6a0-4fb1-9a37-317f26e7b73c)![2 (1)](https://github.com/user-attachments/assets/723aaf56-5d3b-4956-865c-2b560a345f5c)
 
-![Project 1 Screenshot](project_1_screenshot_url)
 
 **[Project 1 Title]** is a **[brief project description]** built with **[technologies used]**. This project demonstrates my ability to **[skills demonstrated by the project]**. You can check out the repository [here](project_1_repository_link).
 
