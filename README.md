@@ -1,6 +1,6 @@
 # Hi there, I'm Teninlanimi Taiwo! 👋
 
-![Banner Image]((https://github.com/user-attachments/assets/6218bcff-c673-4718-bd60-0fcd538e50ec)
+![Banner Image](https://github.com/user-attachments/assets/6218bcff-c673-4718-bd60-0fcd538e50ec)
 
 ## About Me 🚀
 
