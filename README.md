@@ -26,7 +26,7 @@ I love tackling complex problems, learning new skills, and collaborating with di
 
 ## Get in Touch 📬
 
-- **[My Portfolio](https://portfolio-iota-five-69.vercel.app)**
+- **[My Portfolio](https://teninlanimi-taiwo.vercel.app)**
 - **[LinkedIn](https://www.linkedin.com/in/teninlanimi-taiwo)**
 
 
