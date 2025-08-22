@@ -10,7 +10,7 @@ I love tackling complex problems, learning new skills, and collaborating with di
 - 🌱 Currently learning: **Vibe Coding & AI/ML**
 - 🔭 Working on: **Fintech and E-School Solutions**
 - 🌍 Languages: **English, Dart, Javascript, Python and Java**
-- 📫 How to reach me: **teninlanimitaiwo@gmail.com** or you can call me on **+234904904676**
+- 📫 How to reach me: **teninlanimitaiwo@gmail.com** or you can call me on **+2349049014676**
 - ⚡ Fun fact: I have s super power😉. **The power to find and fix bugs from impossible places**
 
 ## My Skills 🧠
