@@ -8,6 +8,7 @@ import {
   LockGlyph,
   Mail,
   LinkedIn,
+  GitHub,
   QobiMark,
   Resume,
 } from "@/components/icons";
@@ -488,7 +489,7 @@ export default function HomePage() {
             innovation, and real impact. The fastest way to reach me is email.
           </p>
           <div className="contact-links reveal">
-            <a className="clink" href="mailto:teninlanimitaiwo@gmail.com">
+            <a className="clink" href="mailto:teninlanimi@kalaharitech.xyz">
               <Mail />
               Email
             </a>
@@ -503,6 +504,15 @@ export default function HomePage() {
             </a>
             <a
               className="clink"
+              href="https://github.com/taiwoteni"
+              target="_blank"
+              rel="noopener"
+            >
+              <GitHub />
+              GitHub
+            </a>
+            <a
+              className="clink"
               href="https://www.qobi-copilot.xyz"
               target="_blank"
               rel="noopener"
@@ -510,7 +520,12 @@ export default function HomePage() {
               <QobiMark />
               Qobi
             </a>
-            <a className="clink" href="/resume.pdf" target="_blank" rel="noopener">
+            <a
+              className="clink"
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener"
+            >
               <Resume />
               Résumé
             </a>
