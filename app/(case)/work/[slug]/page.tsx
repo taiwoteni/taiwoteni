@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import CaseStudy from "@/components/case/CaseStudy";
-import { CASES, CASE_SLUGS } from "@/lib/cases";
+import { CASES, CASE_ORDER } from "@/lib/cases";
 import { WORK } from "@/lib/home";
 import { JsonLd, caseJsonLd } from "@/lib/seo";
 import { SITE_NAME } from "@/lib/site";
@@ -11,7 +11,7 @@ type Props = { params: { slug: string } };
 export const dynamicParams = false;
 
 export function generateStaticParams() {
-  return CASE_SLUGS.map((slug) => ({ slug }));
+  return CASE_ORDER.map((slug) => ({ slug }));
 }
 
 export function generateMetadata({ params }: Props): Metadata {

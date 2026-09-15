@@ -20,7 +20,7 @@ export default function ContactConfirmation({ name, topic, message }: ContactCon
   ];
 
   return (
-    <Shell preview={`Thanks, ${first} — your message reached me. I'll be in touch soon.`}>
+    <Shell variant="personal" preview={`Thanks, ${first} — your message reached me. I'll be in touch soon.`}>
       <Text style={styles.label}>Message received</Text>
       <Heading as="h1" style={styles.heading}>
         Thanks, {first} — <span style={{ fontStyle: "italic", color: tokens.red }}>message received.</span>
@@ -44,7 +44,7 @@ export default function ContactConfirmation({ name, topic, message }: ContactCon
       <Text style={{ ...styles.body, margin: "30px 0 0", color: tokens.ink }}>
         Speak soon,
         <br />
-        <span style={{ fontFamily: tokens.serif, fontSize: "22px", lineHeight: "32px" }}>Teninlanimi Taiwo</span>
+        <span style={{ fontFamily: tokens.serif, fontSize: "22px", lineHeight: "32px" }}>Teni Taiwo</span>
       </Text>
 
       <Hr style={{ borderColor: tokens.line, margin: "30px 0 18px" }} />
@@ -76,13 +76,13 @@ export function contactConfirmationText({ name, topic, message }: ContactConfirm
     message,
     "",
     "Speak soon,",
-    "Teninlanimi Taiwo",
+    "Teni Taiwo",
     "",
     `Selected work: ${SITE_URL}/#work`,
     `Résumé:        ${SITE_URL}/resume`,
     `LinkedIn:      ${LINKEDIN_URL}`,
     "",
-    "— Sent by Portfolio Alerts · teninlanimi.xyz",
+    "— Teni Taiwo · teninlanimi.xyz",
   ].join("\n");
 }
 

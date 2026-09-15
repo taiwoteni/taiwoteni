@@ -64,16 +64,16 @@ type OgProps = {
   /** Headline split as [before, accent (italic red), after]. */
   headline: [string, string, string?];
   sub: string;
-  image?: { src: string; kind?: "portrait" | "screen" };
+  /** Screenshots are cropped top-left; "portrait" fills the right edge with a fade. */
+  image?: { src: string; kind?: "portrait" };
 };
 
 /** Branded 1200×630 social card, mirroring the site's type and palette. */
 export async function renderOg({ label, headline, sub, image }: OgProps) {
-  const [serif, serifItalic, sans, sansMedium, mono, mark, picture] = await Promise.all([
+  const [serif, serifItalic, sans, mono, mark, picture] = await Promise.all([
     font("newsreader-light.ttf"),
     font("newsreader-light-italic.ttf"),
     font("instrument-sans-regular.ttf"),
-    font("instrument-sans-medium.ttf"),
     font("jetbrains-mono-regular.ttf"),
     loadImage("/assets/logo-mark.svg").then((m) => m.src),
     image ? loadImage(image.src) : Promise.resolve(null),
@@ -236,7 +236,6 @@ export async function renderOg({ label, headline, sub, image }: OgProps) {
         { name: "Newsreader", data: serif, weight: 300, style: "normal" },
         { name: "Newsreader Italic", data: serifItalic, weight: 300, style: "italic" },
         { name: "Instrument Sans", data: sans, weight: 400, style: "normal" },
-        { name: "Instrument Sans", data: sansMedium, weight: 500, style: "normal" },
         { name: "JetBrains Mono", data: mono, weight: 400, style: "normal" },
       ],
     },

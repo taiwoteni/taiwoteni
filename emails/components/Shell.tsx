@@ -92,10 +92,15 @@ export const styles = {
   link: { color: tokens.ink, textDecoration: "underline", textDecorationColor: tokens.faint },
 } satisfies Record<string, CSSProperties>;
 
-type ShellProps = { preview: string; children: ReactNode };
+/** Who the email is from — only the footer sign-off differs; the header is always the brand mark. */
+export type ShellVariant = "alerts" | "personal";
 
-/** Shared frame: brand header, 600px content column, Portfolio Alerts footer. */
-export default function Shell({ preview, children }: ShellProps) {
+const FOOTER: Record<ShellVariant, string> = { alerts: "Sent by Portfolio Alerts", personal: "Teni Taiwo" };
+
+type ShellProps = { preview: string; variant: ShellVariant; children: ReactNode };
+
+/** Shared frame: brand header, 600px content column, footer. */
+export default function Shell({ preview, variant, children }: ShellProps) {
   return (
     <Html lang="en">
       <Head>
@@ -172,7 +177,7 @@ export default function Shell({ preview, children }: ShellProps) {
                 color: tokens.muted,
               }}
             >
-              Sent by Portfolio Alerts ·{" "}
+              {FOOTER[variant]} ·{" "}
               <Link href={SITE_URL} style={{ color: tokens.muted, textDecoration: "underline" }}>
                 teninlanimi.xyz
               </Link>

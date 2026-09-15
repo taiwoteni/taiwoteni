@@ -3,7 +3,7 @@ import { NextResponse } from "next/server";
 import { Resend } from "resend";
 import ContactConfirmation, { contactConfirmationText } from "@/emails/ContactConfirmation";
 import ContactNotification, { contactNotificationText, firstName } from "@/emails/ContactNotification";
-import { CONTACT_TO, EMAIL_FROM } from "@/lib/email/config";
+import { ALERTS_FROM, CONTACT_TO, PERSONAL_FROM } from "@/lib/email/config";
 import { CONTACT_TOPICS, type ContactTopic } from "@/lib/site";
 
 export const runtime = "nodejs";
@@ -81,7 +81,7 @@ export async function POST(req: Request) {
 
   const notificationProps = { ...fields, receivedAt: `${receivedAt} (Kigali)` };
   const { error: notifyError } = await resend.emails.send({
-    from: EMAIL_FROM,
+    from: ALERTS_FROM,
     to: CONTACT_TO,
     replyTo: fields.email,
     subject: `[${fields.topic}] New enquiry from ${fields.name}`,
@@ -95,7 +95,7 @@ export async function POST(req: Request) {
   }
 
   const { error: confirmError } = await resend.emails.send({
-    from: EMAIL_FROM,
+    from: PERSONAL_FROM,
     to: fields.email,
     replyTo: CONTACT_TO,
     subject: `Thanks, ${firstName(fields.name)} — your message reached me`,

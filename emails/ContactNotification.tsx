@@ -29,7 +29,7 @@ export default function ContactNotification({ name, email, topic, message, recei
   ];
 
   return (
-    <Shell preview={`${name} · ${topic} — ${message.slice(0, 90)}`}>
+    <Shell variant="alerts" preview={`${name} · ${topic} — ${message.slice(0, 90)}`}>
       <Text style={styles.label}>New enquiry</Text>
       <Heading as="h1" style={styles.heading}>
         {name} wants to talk about <span style={{ fontStyle: "italic", color: tokens.red }}>{topic.toLowerCase()}.</span>

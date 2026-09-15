@@ -1209,8 +1209,6 @@ export const CASES: Record<string, CaseStudy> = {
   },
 };
 
-export const CASE_SLUGS = [...CASE_ORDER];
-
 export function nextCase(slug: string): CaseStudy {
   const i = CASE_ORDER.indexOf(slug as (typeof CASE_ORDER)[number]);
   return CASES[CASE_ORDER[(i + 1) % CASE_ORDER.length]];

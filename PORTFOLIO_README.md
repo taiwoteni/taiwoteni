@@ -1,68 +1,57 @@
-# Teninlanimi Taiwo — Portfolio (v2)
+# Teninlanimi Taiwo — Portfolio
 
-A Next.js (App Router) implementation of the dark + red portfolio designed in
-Claude Design. Recreates the design prototype pixel-for-pixel and turns the
-single-page mock plus its four nested case-study screens into a real,
-multi-route Next.js site.
+Next.js 14 (App Router) build of the portfolio designed in Claude Design, live at
+**https://www.teninlanimi.xyz**. Pages recreate the design pixel-for-pixel.
 
 ## Routes
 
-| Route | Source design file | Description |
+| Route | Source | Notes |
 |---|---|---|
-| `/` | `index.html` | Home — hero, profile, selected work, experience, stack, education, testimonials, contact |
-| `/work/troco` | `work/troco.html` | Troco case study |
-| `/work/orems` | `work/orems.html` | Orems case study |
-| `/work/qobi` | `work/qobi.html` | Qobi case study |
-| `/work/star-taskz` | `work/star-taskz.html` | Star Taskz case study |
+| `/` | `app/(site)/page.tsx` | Home — hero, stats, work, walkthroughs, experience, about, stack, education, testimonials, contact |
+| `/work/[slug]` | `app/(case)/work/[slug]/page.tsx` | 7 statically generated case studies from `lib/cases.tsx` |
+| `/resume` | `app/(doc)/resume/page.tsx` | Printable résumé (`<doc-page>` from `public/doc-page.js`) |
+| `/api/contact` | `app/api/contact/route.ts` | Contact form → Resend |
+| `/sitemap.xml`, `/robots.txt` | `app/sitemap.ts`, `app/robots.ts` | SEO |
 
-Case-study pages are generated statically from a single data module
-([`lib/cases.tsx`](lib/cases.tsx)) via the dynamic `/work/[slug]` route, so adding
-or editing a project is a data change, not a new page.
+Each route group has its **own root layout and stylesheet** (`site.css`, `case.css`,
+`resume.css`, copied from the design) so their global rules never mix.
 
-## Stack
+## Structure
 
-- **Next.js 14** (App Router, React Server Components) + **TypeScript**
-- **`next/font`** self-hosting the three design typefaces — Fraunces (display
-  serif), Hanken Grotesk (body), JetBrains Mono (labels). Variable fonts, so the
-  design's optical weights (340 / 360 / 380) are preserved.
-- **Plain CSS** ported verbatim from the prototype:
-  [`app/globals.css`](app/globals.css) (home) and
-  [`app/work/case.css`](app/work/case.css) (case studies). The design tokens,
-  grain overlay, red glow, masked grid, and all responsive rules are unchanged.
+- `lib/home.tsx`, `lib/cases.tsx` — page content (edit copy here).
+- `components/site/HomeEffects.tsx` — intro, counters, walkthroughs, testimonials, form (port of the design's `site.js`).
+- `components/observeReveal.ts` — scroll reveals (also works for sections taller than the screen).
+- `lib/seo.tsx` — JSON-LD; `lib/og.tsx` — generated social preview images (fonts in `assets/og-fonts`).
+- `emails/` — React Email templates.
 
-## Interactivity (client islands)
+## Contact email
 
-The page is server-rendered; only the genuinely interactive pieces are client
-components:
+| Email | From |
+|---|---|
+| Enquiry alert → Teni | `Portfolio Alerts <alerts@teninlanimi.xyz>` |
+| Confirmation → visitor | `Teni Taiwo <truly@teninlanimi.xyz>` |
 
-- [`SiteNav`](components/SiteNav.tsx) — blur-on-scroll nav.
-- [`ScrollReveal`](components/ScrollReveal.tsx) — `IntersectionObserver` reveal
-  animations + immediate hero stagger; respects `prefers-reduced-motion`.
-- [`ProjectCard`](components/ProjectCard.tsx) — whole-card link to a case study
-  (inner live-site links still work), keyboard accessible.
-- [`Testimonials`](components/Testimonials.tsx) — auto-advancing, paginated
-  slider with progress bar, pause-on-hover/focus, and arrow-key control.
+Both use the brand-mark header. The avatar inboxes show next to the sender is not
+set by the email — see "Sender avatars" below.
 
-## Develop
+Preview templates with `npm run email:dev` (http://localhost:3001).
+
+## Sender avatars
+
+Inbox avatars come from outside the email: Gmail shows the Google-account photo of the
+sending address, and BIMI (DNS + DMARC enforcement, plus a VMC/CMC certificate for
+Gmail/Apple Mail) shows one logo for the whole domain.
+
+## Environment
+
+See `.env.example`: `RESEND_API_KEY` (required for email), `CONTACT_TO_EMAIL`,
+`NEXT_PUBLIC_SITE_URL` (canonical origin, defaults to www), `GOOGLE_SITE_VERIFICATION`.
+
+## Scripts
 
 ```bash
-npm install
-npm run dev      # http://localhost:3000
-npm run build    # production build
-npm start        # serve the production build
+npm run dev        # local dev
+npm run build      # production build
 npm run lint
+npm run email:dev  # email template preview
 ```
-
-## Assets
-
-Images live in [`public/`](public/) (portrait, project shots, and the per-project
-`troco/`, `qobi/`, `star/` mobile screenshots), mirroring the design bundle.
-
-### To supply later (referenced but not yet provided)
-
-- `public/og-image.png` — 1200×630 social card.
-- `public/resume.pdf` — linked from the Contact section.
-
-Real testimonial quotes/names/photos can replace the placeholders in
-[`components/Testimonials.tsx`](components/Testimonials.tsx); the slider scales to
-any number of entries.

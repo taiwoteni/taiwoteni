@@ -1,4 +1,4 @@
-import { CASES, CASE_SLUGS } from "@/lib/cases";
+import { CASES, CASE_ORDER } from "@/lib/cases";
 import { OG_CONTENT_TYPE, OG_SIZE, renderOg } from "@/lib/og";
 
 /** Cases whose hero is a placeholder get a real screen on the social card. */
@@ -9,7 +9,7 @@ export const contentType = OG_CONTENT_TYPE;
 export const alt = "Teninlanimi Taiwo — case study";
 
 export function generateStaticParams() {
-  return CASE_SLUGS.map((slug) => ({ slug }));
+  return CASE_ORDER.map((slug) => ({ slug }));
 }
 
 export default async function Image({ params }: { params: { slug: string } }) {
