@@ -203,7 +203,6 @@ h2.sh em{font-style:italic;color:var(--red)}
 .shot.locked{background:repeating-linear-gradient(45deg,rgba(244,241,234,.02) 0 12px,transparent 12px 24px),linear-gradient(160deg,#141417,#0b0b0d)}
 .shot.locked::before{display:none}
 .shot .lk{width:54px;height:54px;color:var(--red-deep);opacity:.6}
-.nda-note{margin-top:24px;font-size:14px;color:var(--muted);max-width:48ch}
 .pj[data-case]{cursor:pointer}
 .pj[data-case]:focus-visible{outline:2px solid var(--red);outline-offset:4px}
 @media(max-width:860px){.pj{grid-template-columns:1fr}.pj .shot{order:0!important;aspect-ratio:2/1;min-height:0;border:0!important;border-bottom:1px solid var(--line)!important}.pj .body{order:1!important}.kpi div{padding:13px 14px 13px 0}.kpi div:not(:first-child){padding-left:14px}}

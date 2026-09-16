@@ -177,7 +177,6 @@ export default function HomePage() {
                   <span>Access control</span>
                   <span>Revenue digitization</span>
                 </div>
-                <p className="nda-note">Happy to walk through the architecture verbally, within NDA limits.</p>
               </div>
             </article>
 
