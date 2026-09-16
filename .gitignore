@@ -28,3 +28,6 @@ next-env.d.ts
 
 # Claude Design handoff bundle (large, source only)
 claude-design-handoff.zip
+
+# Search Console exports
+*-Coverage-*.zip
