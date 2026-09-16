@@ -6,9 +6,14 @@ export const SITE_NAME = "Teninlanimi Taiwo";
 
 export const CONTACT_EMAIL = "teninlanimitaiwo@gmail.com";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/teninlanimi-taiwo/";
+/** Profiles listed in structured data (sameAs) so Google links them to one person. */
+export const GITHUB_URL = "https://github.com/taiwoteni";
+export const INSTAGRAM_URL = "https://www.instagram.com/theteninlanimitaiwo";
 
 export const FAVICON: Metadata["icons"] = {
   icon: [
+    // .ico first: Google's favicon crawler probes /favicon.ico by default.
+    { url: "/favicon.ico", sizes: "48x48", type: "image/x-icon" },
     { url: "/assets/logo-mark.svg", type: "image/svg+xml" },
     { url: "/icons/icon-48.png", sizes: "48x48", type: "image/png" },
     { url: "/icons/icon-96.png", sizes: "96x96", type: "image/png" },

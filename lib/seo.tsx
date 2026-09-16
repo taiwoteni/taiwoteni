@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL, LINKEDIN_URL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const abs = (path: string) => `${SITE_URL}${path}`;
 
@@ -6,14 +6,14 @@ export const PERSON_ID = abs("/#person");
 export const WEBSITE_ID = abs("/#website");
 
 export const HOME_DESCRIPTION =
-  "Teninlanimi Taiwo builds secure, intelligent systems — national-scale infrastructure for the public sector and financial institutions, and consumer products taken from zero to launch.";
+  "Teninlanimi (Teni) Taiwo — Solutions Architect, builder and founder. Secure, intelligent systems built at national scale, and consumer products taken from zero to launch.";
 
 export function personSchema() {
   return {
     "@type": "Person",
     "@id": PERSON_ID,
     name: SITE_NAME,
-    alternateName: "Teni Taiwo",
+    alternateName: ["Teni Taiwo", "Teni"],
     url: abs("/"),
     image: abs("/assets/teni.jpg"),
     email: `mailto:${CONTACT_EMAIL}`,
@@ -40,7 +40,7 @@ export function personSchema() {
       "AI agents",
       "Claude API",
     ],
-    sameAs: [LINKEDIN_URL],
+    sameAs: [LINKEDIN_URL, GITHUB_URL, INSTAGRAM_URL],
   };
 }
 

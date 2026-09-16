@@ -4,9 +4,9 @@ import { HOME_DESCRIPTION } from "@/lib/seo";
 import { BASE_METADATA, SITE_NAME } from "@/lib/site";
 import "./site.css";
 
-const title = "Teninlanimi Taiwo — Solutions Architect, Builder & Founder";
+const title = "Teninlanimi (Teni) Taiwo — Solutions Architect, Builder & Founder";
 const social = {
-  title: "Teninlanimi Taiwo — Engineer & Founder",
+  title: "Teninlanimi (Teni) Taiwo — Engineer & Founder",
   description: "Secure, intelligent systems — from national infrastructure to products people actually use.",
 };
 
