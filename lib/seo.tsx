@@ -6,7 +6,7 @@ export const PERSON_ID = abs("/#person");
 export const WEBSITE_ID = abs("/#website");
 
 export const HOME_DESCRIPTION =
-  "Teninlanimi Taiwo builds secure, intelligent systems — national-scale infrastructure for governments and financial institutions, and consumer products taken from zero to launch.";
+  "Teninlanimi Taiwo builds secure, intelligent systems — national-scale infrastructure for the public sector and financial institutions, and consumer products taken from zero to launch.";
 
 export function personSchema() {
   return {

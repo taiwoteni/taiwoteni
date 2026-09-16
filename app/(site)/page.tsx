@@ -60,8 +60,9 @@ export default function HomePage() {
               <b>Solutions Architect</b> <s>/</s> <b>Builder</b> <s>&amp;</s> <b>Founder</b>
             </div>
             <p className="lede">
-              I build <b>secure, intelligent systems</b> — national-scale infrastructure for governments and financial
-              institutions, and consumer products taken from zero to launch. Writing production code since I was 12.
+              I build <b>secure, intelligent systems</b> — national-scale infrastructure for the public sector and
+              financial institutions, and consumer products taken from zero to launch. Writing production code since I
+              was 12.
             </p>
             <div className="acts">
               <a className="btn btn-1" href="#work">
@@ -152,7 +153,7 @@ export default function HomePage() {
             Products and systems I&apos;ve taken <em>from zero.</em>
           </h2>
           <p className="ssub rv">
-            Across fintech, government, and consumer. My largest work is protected under NDA — what follows is the
+            Across fintech, public sector, and consumer. My largest work is protected under NDA — what follows is the
             visible portion. <b>Open any project for the full case study.</b>
           </p>
           <div className="works">
@@ -166,7 +167,7 @@ export default function HomePage() {
                   Confidential Systems <span className="role">NDA</span>
                 </h3>
                 <p>
-                  My most significant work is built for <b>governments and financial institutions</b> and protected
+                  My most significant work is built for <b>the public sector and financial institutions</b> and protected
                   under NDA — national-scale access control, revenue digitization, and operational security. I translate
                   executive requirements into architecture, then lead senior teams through delivery.
                 </p>
