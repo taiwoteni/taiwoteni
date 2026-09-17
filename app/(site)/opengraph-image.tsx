@@ -8,7 +8,7 @@ export default function Image() {
   return renderOg({
     label: "Kigali / Lagos",
     headline: ["Teninlanimi ", "Taiwo"],
-    sub: "Solutions Architect, builder & founder — secure, intelligent systems from national infrastructure to products people use.",
+    sub: "Solutions Architect, builder & founder. Secure, intelligent systems, from national infrastructure to products people use.",
     image: { src: "/assets/teni.jpg", kind: "portrait" },
   });
 }

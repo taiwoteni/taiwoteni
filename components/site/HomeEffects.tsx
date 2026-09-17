@@ -11,9 +11,9 @@ const removeBrokenLogo = (img: HTMLImageElement) => img.closest(".mq-item")?.rem
 const HINT = {
   idle: "// sends straight to my inbox",
   sending: "// sending…",
-  sent: "// sent — a confirmation is on its way to your inbox",
-  limited: "// too many attempts — try again shortly",
-  failed: `// couldn't send — email ${CONTACT_EMAIL} directly`,
+  sent: "// sent, a confirmation is on its way to your inbox",
+  limited: "// too many attempts, try again shortly",
+  failed: `// couldn't send, email ${CONTACT_EMAIL} directly`,
 };
 
 /** Port of the design's site.js, run against the server-rendered home page. */

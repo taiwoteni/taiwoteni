@@ -98,7 +98,7 @@ export async function POST(req: Request) {
     from: PERSONAL_FROM,
     to: fields.email,
     replyTo: CONTACT_TO,
-    subject: `Thanks, ${firstName(fields.name)} — your message reached me`,
+    subject: `Thanks, ${firstName(fields.name)}. Your message reached me`,
     react: createElement(ContactConfirmation, fields),
     text: contactConfirmationText(fields),
     tags: [{ name: "type", value: "contact-confirmation" }],

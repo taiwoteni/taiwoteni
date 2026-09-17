@@ -60,8 +60,8 @@ export default function HomePage() {
               <b>Solutions Architect</b> <s>/</s> <b>Builder</b> <s>&amp;</s> <b>Founder</b>
             </div>
             <p className="lede">
-              I build <b>secure, intelligent systems</b> — national-scale infrastructure for the public sector and
-              financial institutions, and consumer products taken from zero to launch. Writing production code since I
+              I build <b>secure, intelligent systems</b>: national-scale infrastructure for the public sector and
+              financial institutions, plus consumer products taken from zero to launch. Writing production code since I
               was 12.
             </p>
             <div className="acts">
@@ -153,7 +153,7 @@ export default function HomePage() {
             Products and systems I&apos;ve taken <em>from zero.</em>
           </h2>
           <p className="ssub rv">
-            Across fintech, public sector, and consumer. My largest work is protected under NDA — what follows is the
+            Across fintech, public sector, and consumer. My largest work is protected under NDA; what follows is the
             visible portion. <b>Open any project for the full case study.</b>
           </p>
           <div className="works">
@@ -168,7 +168,7 @@ export default function HomePage() {
                 </h3>
                 <p>
                   My most significant work is built for <b>the public sector and financial institutions</b> and protected
-                  under NDA — national-scale access control, revenue digitization, and operational security. I translate
+                  under NDA: national-scale access control, revenue digitization, and operational security. I translate
                   executive requirements into architecture, then lead senior teams through delivery.
                 </p>
                 <div className="tags">
@@ -286,7 +286,7 @@ export default function HomePage() {
               <h2 className="sh">A product thinker with the precision of a senior engineer.</h2>
               <p>
                 As a <b>Solutions Architect and embedded Product Manager</b>, I lead senior engineering teams on
-                confidential, high-stakes systems — access control, revenue digitization, cloud infrastructure, and
+                confidential, high-stakes systems: access control, revenue digitization, cloud infrastructure, and
                 operational security, at national scale.
               </p>
               <p>
@@ -294,9 +294,8 @@ export default function HomePage() {
                 deliberate sample, not the sum.
               </p>
               <p>
-                I started coding at 12, and I&apos;m still early. I gravitate toward hard things — systems where getting
-                it wrong actually costs something — and I&apos;m driven by building with purpose. Not just apps, but
-                impact.
+                I started coding at 12, and I&apos;m still early. I gravitate toward hard things: systems where getting
+                it wrong actually costs something. I&apos;m driven by building with purpose. Not just apps, but impact.
               </p>
               <div className="pull">&quot;Start early, dream boldly, execute with precision.&quot;</div>
               <div className="traits">
@@ -369,7 +368,7 @@ export default function HomePage() {
           <div className="lbl rv">07 — Testimonials</div>
           <h2 className="sh rv">Words from the people I&apos;ve built alongside.</h2>
           <p className="ssub rv">
-            Placeholders below, marked as samples. <b>Send me the real quotes and I&apos;ll swap them in</b> — the slider
+            Placeholders below, marked as samples. <b>Send me the real quotes and I&apos;ll swap them in</b>; the slider
             scales to as many as you add.
           </p>
           <div
@@ -433,7 +432,7 @@ export default function HomePage() {
             <div>
               <h3>The full résumé, in detail.</h3>
               <p>
-                Experience, architecture work, products, and education — as a clean document you can read on screen or
+                Experience, architecture work, products, and education, in a clean document you can read on screen or
                 save as PDF.
               </p>
             </div>
@@ -457,7 +456,7 @@ export default function HomePage() {
               </h2>
               <p className="bl">
                 Open to founding-engineer roles, architecture work, and collaborations with real stakes. Email is
-                fastest — the form sends it straight to me.
+                fastest; the form sends it straight to me.
               </p>
               <div className="clist">
                 <a href={`mailto:${CONTACT_EMAIL}`}>

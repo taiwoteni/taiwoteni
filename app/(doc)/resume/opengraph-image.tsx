@@ -8,7 +8,7 @@ export default function Image() {
   return renderOg({
     label: "Résumé",
     headline: ["The full résumé, ", "in detail."],
-    sub: "Experience, architecture work, products, and education — Teninlanimi Taiwo, Solutions Architect.",
+    sub: "Experience, architecture work, products, and education. Teninlanimi Taiwo, Solutions Architect.",
     image: { src: "/assets/teni.jpg", kind: "portrait" },
   });
 }

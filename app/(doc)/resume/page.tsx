@@ -5,7 +5,7 @@ import { CONTACT_EMAIL, LINKEDIN_URL, SITE_BRAND, SITE_URL } from "@/lib/site";
 
 const title = "Teninlanimi Taiwo — Résumé";
 const description =
-  "Résumé of Teninlanimi Taiwo — Solutions Architect, builder and founder. Experience, products, capabilities and education.";
+  "Résumé of Teninlanimi Taiwo, Solutions Architect, builder and founder: experience, products, capabilities and education.";
 
 export const metadata: Metadata = {
   title: { absolute: title },
@@ -34,7 +34,7 @@ const EXPERIENCE: Entry[] = [
         resilience, and security posture.
       </>,
       <>
-        Deliver across <b>access control, revenue digitization, and operational security</b> — domains where correctness
+        Deliver across <b>access control, revenue digitization, and operational security</b>, domains where correctness
         and auditability are non-negotiable.
       </>,
       <>
@@ -52,7 +52,7 @@ const EXPERIENCE: Entry[] = [
     points: [
       <>
         Designed and built the <b>agent layer</b> that maps plain-English requests onto real, permissioned tool calls
-        across three integrated systems — with every tool call traced and visible in the conversation.
+        across three integrated systems, with every tool call traced and visible in the conversation.
       </>,
       <>
         Built <b>multi-tenant workspace architecture</b> with per-workspace OAuth and encrypted token storage, so teams
@@ -63,8 +63,8 @@ const EXPERIENCE: Entry[] = [
         against initiative targets, computes days late, and narrates the risk.
       </>,
       <>
-        Derived cross-system engineering metrics — throughput, cycle time, review latency, deploys, stale in-progress
-        work, sprint burndown — into consolidated dashboards.
+        Derived cross-system engineering metrics into consolidated dashboards: throughput, cycle time, review latency,
+        deploys, stale in-progress work, sprint burndown.
       </>,
       <>
         Implemented a <b>cost-aware model router</b> and persistent memory carrying context between conversations; own
@@ -136,7 +136,7 @@ const EXPERIENCE: Entry[] = [
     ctx: "Student-built agritech think tank turning fertile ground in Ikot Ekpene into work.",
     points: [
       <>
-        Technical lead — responsible for the think tank producing <b>working software rather than a report</b>.
+        Technical lead, responsible for the think tank producing <b>working software rather than a report</b>.
       </>,
       <>
         Built <b>Agrilink</b>, a prototype connecting smallholder farmers to buyers and to credit.
@@ -159,7 +159,7 @@ const EXPERIENCE: Entry[] = [
     when: "2020 — 2023",
     role: "Sole Builder",
     sub: "· personal project · age 13 → 16",
-    ctx: "Social platform shipped free on Google Play — feed, stories, reels, direct messaging with voice notes, and audio and video calling.",
+    ctx: "Social platform shipped free on Google Play: feed, stories, reels, direct messaging with voice notes, and audio and video calling.",
     points: [
       <>
         Sole developer across the entire product: social feed, 24-hour stories, reels,{" "}
@@ -178,7 +178,7 @@ const PRODUCTS: { name: string; tag: string; p: string; metrics: string }[] = [
   {
     name: "Khove",
     tag: "AI · dev tooling · live",
-    p: "One conversational interface over GitHub, Calendar and Jira — reads across all three, answers with what matters, and offers to act.",
+    p: "One conversational interface over GitHub, Calendar and Jira: reads across all three, answers with what matters, and offers to act.",
     metrics: "khove.xyz · 3 integrations · multi-tenant",
   },
   {
@@ -190,7 +190,7 @@ const PRODUCTS: { name: string; tag: string; p: string; metrics: string }[] = [
   {
     name: "Qobi",
     tag: "AI · education · shipped",
-    p: "Obligation engine for university life — read-only Gmail and Canvas scopes, consequence-ranked daily brief, cascade reasoning.",
+    p: "Obligation engine for university life: read-only Gmail and Canvas scopes, consequence-ranked daily brief, cascade reasoning.",
     metrics: "4 days zero-to-shipped · Claude API · Next.js / Flutter",
   },
   {
@@ -208,13 +208,13 @@ const PRODUCTS: { name: string; tag: string; p: string; metrics: string }[] = [
   {
     name: "Agrilink",
     tag: "agritech · prototype",
-    p: "Connects smallholder farmers to buyers and to credit — market access plus working capital, so a harvest isn't sold early.",
+    p: "Connects smallholder farmers to buyers and to credit: market access plus working capital, so a harvest isn't sold early.",
     metrics: "Two-sided marketplace · Afrinovators · Ikot Ekpene",
   },
   {
     name: "Axel",
     tag: "social · android · shipped",
-    p: "Full social platform — feed, stories, reels, messaging with voice notes, audio and video calling — shipped solo on Google Play.",
+    p: "Full social platform shipped solo on Google Play: feed, stories, reels, messaging with voice notes, audio and video calling.",
     metrics: "Solo build · product, design, brand, engineering",
   },
 ];
@@ -299,7 +299,7 @@ export default function ResumePage() {
         </div>
 
         <p className="summary">
-          Engineer and architect building <b>secure, intelligent systems</b> — national-scale infrastructure for the
+          Engineer and architect building <b>secure, intelligent systems</b>: national-scale infrastructure for the
           public sector and financial institutions, and consumer products taken from zero to launch. I work where code,
           product, and strategy meet: translating executive requirements into architecture, leading senior engineering
           teams through delivery, and shipping the result. Writing production code since age 12.
@@ -363,13 +363,13 @@ export default function ResumePage() {
         <h2>Recognition</h2>
         <ul>
           <li>
-            <b>2nd place, nationwide innovation hackathon</b> — led the project team, at 17.
+            <b>2nd place, nationwide innovation hackathon</b>: led the project team, at 17.
           </li>
           <li>
-            <b>Grant-funded ALU admission</b> — awarded on a demonstrated record of building.
+            <b>Grant-funded ALU admission</b>, awarded on a demonstrated record of building.
           </li>
           <li>
-            <b>Founder, Qobi</b> — built and shipped at the ALU Claude Builders Club.
+            <b>Founder, Qobi</b>: built and shipped at the ALU Claude Builders Club.
           </li>
         </ul>
         <p className="rule-note">

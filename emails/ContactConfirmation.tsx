@@ -20,14 +20,14 @@ export default function ContactConfirmation({ name, topic, message }: ContactCon
   ];
 
   return (
-    <Shell variant="personal" preview={`Thanks, ${first} — your message reached me. I'll be in touch soon.`}>
+    <Shell variant="personal" preview={`Thanks, ${first}. Your message reached me. I'll be in touch soon.`}>
       <Text style={styles.label}>Message received</Text>
       <Heading as="h1" style={styles.heading}>
-        Thanks, {first} — <span style={{ fontStyle: "italic", color: tokens.red }}>message received.</span>
+        Thanks, {first}. <span style={{ fontStyle: "italic", color: tokens.red }}>Message received.</span>
       </Heading>
       <Text style={styles.body}>
         This is a quick note to confirm your message landed safely. I read every one personally, and I usually reply
-        within two or three days — sooner if it&apos;s time-sensitive.
+        within two or three days, sooner if it&apos;s time-sensitive.
       </Text>
       <Text style={{ ...styles.body, margin: "14px 0 0" }}>
         If you need to add anything in the meantime, just reply to this email and it will come straight to me.
@@ -65,13 +65,13 @@ export default function ContactConfirmation({ name, topic, message }: ContactCon
 
 export function contactConfirmationText({ name, topic, message }: ContactConfirmationProps) {
   return [
-    `Thanks, ${firstName(name)} — message received.`,
+    `Thanks, ${firstName(name)}. Message received.`,
     "",
-    "This is a quick note to confirm your message landed safely. I read every one personally, and I usually reply within two or three days — sooner if it's time-sensitive.",
+    "This is a quick note to confirm your message landed safely. I read every one personally, and I usually reply within two or three days, sooner if it's time-sensitive.",
     "",
     "If you need to add anything in the meantime, just reply to this email and it will come straight to me.",
     "",
-    `What you sent — ${topic}`,
+    `What you sent: ${topic}`,
     "-------",
     message,
     "",

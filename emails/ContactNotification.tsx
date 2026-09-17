@@ -55,7 +55,7 @@ export default function ContactNotification({ name, email, topic, message, recei
         </Button>
       </Section>
       <Text style={{ ...styles.body, margin: "16px 0 0", fontSize: "13px", lineHeight: "20px", color: tokens.muted }}>
-        Or just hit reply — this email&apos;s reply-to is set to {email}.
+        Or just hit reply: this email&apos;s reply-to is set to {email}.
       </Text>
     </Shell>
   );
@@ -63,7 +63,7 @@ export default function ContactNotification({ name, email, topic, message, recei
 
 export function contactNotificationText({ name, email, topic, message, receivedAt }: ContactNotificationProps) {
   return [
-    `NEW ENQUIRY — ${name} wants to talk about ${topic.toLowerCase()}.`,
+    `NEW ENQUIRY: ${name} wants to talk about ${topic.toLowerCase()}.`,
     "",
     `Name:     ${name}`,
     `Email:    ${email}`,
@@ -74,7 +74,7 @@ export function contactNotificationText({ name, email, topic, message, receivedA
     "-------",
     message,
     "",
-    `Reply to ${firstName(name)}: just hit reply — reply-to is set to ${email}.`,
+    `Reply to ${firstName(name)}: just hit reply; reply-to is set to ${email}.`,
     "",
     "— Sent by Portfolio Alerts · teninlanimi.xyz",
   ].join("\n");

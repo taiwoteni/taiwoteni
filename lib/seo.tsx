@@ -6,7 +6,7 @@ export const PERSON_ID = abs("/#person");
 export const WEBSITE_ID = abs("/#website");
 
 export const HOME_DESCRIPTION =
-  "Teninlanimi (Teni) Taiwo — Solutions Architect, builder and founder. Secure, intelligent systems built at national scale, and consumer products taken from zero to launch.";
+  "Teninlanimi (Teni) Taiwo: Solutions Architect, builder and founder. Secure, intelligent systems built at national scale, and consumer products taken from zero to launch.";
 
 export function personSchema() {
   return {

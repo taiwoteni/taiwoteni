@@ -172,7 +172,7 @@ function CaseSection({ section: s }: { section: Section }) {
 
         {s.kind === "sat" ? (
           <div className="sat">
-            <span className="sat-sample">sample — swap for real quote</span>
+            <span className="sat-sample">sample: swap for real quote</span>
             <p className="sat-quote">{s.quote}</p>
             <div className="sat-by">
               <div className="sat-avatar">{s.avatar}</div>

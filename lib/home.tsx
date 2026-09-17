@@ -34,7 +34,7 @@ export const WORK: WorkCard[] = [
     image: { kind: "img", src: "/troco-app.png", alt: "Troco app" },
     desc: (
       <>
-        Escrow-based fintech that builds trust into digital transactions — real-time tracking, dispute resolution,
+        Escrow-based fintech that builds trust into digital transactions: real-time tracking, dispute resolution,
         three-party broker flows, and payments for buyers and sellers. I built the technical foundation from scratch and
         led the pivot into a full marketplace.
       </>
@@ -88,8 +88,8 @@ export const WORK: WorkCard[] = [
     badge: "Live · khove.xyz",
     desc: (
       <>
-        An AI-native workspace that puts <b>GitHub, Google Calendar, and Jira behind one conversational interface</b> —
-        ask in plain English and the agent routes the request, pulls context across every tool, and takes the action.
+        An AI-native workspace that puts <b>GitHub, Google Calendar, and Jira behind one conversational interface</b>.
+        Ask in plain English and the agent routes the request, pulls context across every tool, and takes the action.
         Beyond chat it ships consolidated KPI dashboards, sprint intelligence, and a <b>delivery forecast</b> that folds
         merges into projected finish dates and flags slippage before it lands.
       </>
@@ -113,7 +113,7 @@ export const WORK: WorkCard[] = [
     image: { kind: "img", src: "/orems.png", alt: "Orems platform" },
     desc: (
       <>
-        A mobile-first commerce and escrow platform securing payments between individuals and businesses — real-time
+        A mobile-first commerce and escrow platform securing payments between individuals and businesses: real-time
         tracking, automated workflows, and dispute protection end to end. I owned technical direction and hands-on
         delivery.
       </>
@@ -137,7 +137,7 @@ export const WORK: WorkCard[] = [
     badge: "Afrinovators · ALU think tank",
     desc: (
       <>
-        Ikot Ekpene — Nigeria&apos;s &quot;Raffia City&quot; — has fertile land and{" "}
+        Ikot Ekpene, Nigeria&apos;s &quot;Raffia City&quot;, has fertile land and{" "}
         <b>51% unemployment, the second highest in the country.</b> AgriLink is the link that&apos;s missing: a working
         marketplace-and-training prototype that lets farmers <b>sell produce to verified buyers</b>, gives buyers search
         and listings, and adds local weather plus an agricultural expert in chat. Built under Afrinovators, a student
@@ -163,7 +163,7 @@ export const WORK: WorkCard[] = [
     image: { kind: "img", src: "/star-taskz.png", alt: "Star Taskz app" },
     desc: (
       <>
-        A conversational task manager you talk to — speech-to-text capture, intelligent reminders, productivity
+        A conversational task manager you talk to: speech-to-text capture, intelligent reminders, productivity
         insights, and sync with GitHub, calendars, Notion, and Jira for one connected workflow.
       </>
     ),
@@ -181,8 +181,8 @@ export const WORK: WorkCard[] = [
     badge: "Where it started",
     desc: (
       <>
-        A full social platform — <b>feed, stories, reels, direct messaging, voice notes, and audio and video calling</b>{" "}
-        — shipped free on Android. I started it at 13 with a design well past my ability, left it for three years rather
+        A full social platform: <b>feed, stories, reels, direct messaging, voice notes, and audio and video calling</b>,
+        shipped free on Android. I started it at 13 with a design well past my ability, left it for three years rather
         than cut it down, and came back at 16 to finish the thing I&apos;d drawn. Sole developer on all of it.
       </>
     ),
@@ -223,11 +223,11 @@ export const WALKTHROUGHS: Walkthrough[] = [
     steps: [
       {
         h4: "The promise, stated plainly",
-        p: "University obligations hide in the boring places — an inbox, a Canvas announcement, a finance portal. Qobi's landing page makes one claim: nothing important stays unseen.",
+        p: "University obligations hide in the boring places: an inbox, a Canvas announcement, a finance portal. Qobi's landing page makes one claim: nothing important stays unseen.",
       },
       {
         h4: "A brief, not a feed",
-        p: "Today's view answers a single question — what actually matters before midnight. Items are ranked by consequence, not by timestamp.",
+        p: "Today's view answers a single question: what actually matters before midnight. Items are ranked by consequence, not by timestamp.",
       },
       {
         h4: "The cascade view",
@@ -235,7 +235,7 @@ export const WALKTHROUGHS: Walkthrough[] = [
       },
       {
         h4: "Read-only, by design",
-        p: "Permissions are explicit and revocable, and Qobi never writes to a student's inbox. The constraint cut scope and bought trust — the right trade for a product handling sensitive academic data.",
+        p: "Permissions are explicit and revocable, and Qobi never writes to a student's inbox. The constraint cut scope and bought trust, the right trade for a product handling sensitive academic data.",
       },
     ],
   },
@@ -254,15 +254,15 @@ export const WALKTHROUGHS: Walkthrough[] = [
     steps: [
       {
         h4: "One dashboard, three systems",
-        p: "Merges, throughput, cycle time, review latency and deploys next to calendar deadlines and overdue items — GitHub, Jira and Google Calendar resolved into a single KPI surface with live auto-refresh. The consolidated view is the whole pitch, made literal.",
+        p: "Merges, throughput, cycle time, review latency and deploys next to calendar deadlines and overdue items: GitHub, Jira and Google Calendar resolved into a single KPI surface with live auto-refresh. The consolidated view is the whole pitch, made literal.",
       },
       {
         h4: "The agent shows its work",
-        p: "“How are the state of things” expands into seven traced steps — listed threads, checked sprint status, assessed delivery risk, cross-checked Jira against GitHub, checked for unplanned work — then answers. Visible tool calls are a trust decision: an agent with write access to real systems has to be auditable.",
+        p: "“How are the state of things” expands into seven traced steps: listed threads, checked sprint status, assessed delivery risk, cross-checked Jira against GitHub, checked for unplanned work. Then it answers. Visible tool calls are a trust decision: an agent with write access to real systems has to be auditable.",
       },
       {
         h4: "Delivery risk, forecast",
-        p: "Each initiative carries a target date, a burn-up against it, velocity, projected finish and days late. Khove folds GitHub merges into the forecast and writes the narrative — “projected to finish 46 days late, watch for slippage” — with the linked tickets that explain why.",
+        p: "Each initiative carries a target date, a burn-up against it, velocity, projected finish and days late. Khove folds GitHub merges into the forecast and writes the narrative, “projected to finish 46 days late, watch for slippage,” with the linked tickets that explain why.",
       },
       {
         h4: "Sprint intelligence",
@@ -270,7 +270,7 @@ export const WALKTHROUGHS: Walkthrough[] = [
       },
       {
         h4: "Planning in the same place",
-        p: "Two-way Google Calendar sync with standups, sprint ceremonies and reviews in a month view — plus fifteen agent suggestions waiting for review. Planning and shipping stop being separate tabs.",
+        p: "Two-way Google Calendar sync with standups, sprint ceremonies and reviews in a month view, plus fifteen agent suggestions waiting for review. Planning and shipping stop being separate tabs.",
       },
     ],
   },
@@ -292,7 +292,7 @@ export const WALKTHROUGHS: Walkthrough[] = [
       },
       {
         h4: "A marketplace, after the pivot",
-        p: "Troco started as a payments tool. I spearheaded the repositioning into a full marketplace — which meant rebuilding discovery, listings, and seller identity on top of the existing escrow core.",
+        p: "Troco started as a payments tool. I spearheaded the repositioning into a full marketplace, which meant rebuilding discovery, listings, and seller identity on top of the existing escrow core.",
       },
       {
         h4: "Escrow is a state machine",
@@ -318,15 +318,15 @@ export const WALKTHROUGHS: Walkthrough[] = [
     steps: [
       {
         h4: "Six things, named plainly",
-        p: "The home screen is a grid of verbs a farmer already uses — sell, buy, find buyers, weather, tips, ask an expert. No dashboard, no jargon, and a greeting by name. Designed for low digital literacy, which the research named as a key driver of the problem.",
+        p: "The home screen is a grid of verbs a farmer already uses: sell, buy, find buyers, weather, tips, ask an expert. No dashboard, no jargon, and a greeting by name. Designed for low digital literacy, which the research named as a key driver of the problem.",
       },
       {
         h4: "Listing in three steps",
-        p: "Details, photos, review. Crop name, quantity, price in naira, and location prefilled to Ikot Ekpene — because the fastest listing is one where the app already knows where you are and what you grow.",
+        p: "Details, photos, review. Crop name, quantity, price in naira, and location prefilled to Ikot Ekpene, because the fastest listing is one where the app already knows where you are and what you grow.",
       },
       {
         h4: "The support layer",
-        p: "Local weather, pest and disease guidance, daily farming tips, and a route to an expert. This is the substitute for one extension officer per 2,000+ farmers — advice that doesn't depend on someone visiting.",
+        p: "Local weather, pest and disease guidance, daily farming tips, and a route to an expert. This is the substitute for one extension officer per 2,000+ farmers: advice that doesn't depend on someone visiting.",
       },
       {
         h4: "Buyers and specialists, together",
@@ -352,7 +352,7 @@ export const WALKTHROUGHS: Walkthrough[] = [
       },
       {
         h4: "Talk, and the task exists",
-        p: 'Speech-to-text capture with intent parsing — "remind me to review the PR before standup" becomes a scheduled, assigned, linked task. A voice interface has no room to think out loud, which made latency the whole design problem.',
+        p: 'Speech-to-text capture with intent parsing: "remind me to review the PR before standup" becomes a scheduled, assigned, linked task. A voice interface has no room to think out loud, which made latency the whole design problem.',
       },
       {
         h4: "Workspaces per context",
@@ -385,7 +385,7 @@ export const WALKTHROUGHS: Walkthrough[] = [
       },
       {
         h4: "Where it gets social",
-        p: "Multi-reaction rails, social proof on who engaged, inline comments, unread badges on chats. This is the layer that took three years of skill to build — and the reason I paused instead of shipping something smaller.",
+        p: "Multi-reaction rails, social proof on who engaged, inline comments, unread badges on chats. This is the layer that took three years of skill to build, and the reason I paused instead of shipping something smaller.",
       },
     ],
   },
@@ -407,7 +407,7 @@ export const EXPERIENCE: Job[] = [
     points: [
       "Translate complex executive requirements into scalable, secure technical architecture.",
       "Lead cross-functional senior teams designing cloud infrastructure for critical, national-scale systems.",
-      "Deliver mission-critical work across access control, revenue digitization, and operational security — engagements covered by NDA.",
+      "Deliver mission-critical work across access control, revenue digitization, and operational security. Engagements covered by NDA.",
     ],
   },
   {
@@ -417,9 +417,9 @@ export const EXPERIENCE: Job[] = [
     rl: "Founder",
     tag: "ALU Claude Builders Club",
     points: [
-      "Built a privacy-first AI co-pilot for students — read-only across Gmail and Canvas.",
+      "Built a privacy-first AI co-pilot for students, read-only across Gmail and Canvas.",
       "Designed cross-domain reasoning tracing one missed item across academics, finance, standing, and visa.",
-      "Shipped web and mobile in parallel — a working product in four days.",
+      "Shipped web and mobile in parallel: a working product in four days.",
     ],
   },
   {
@@ -430,7 +430,7 @@ export const EXPERIENCE: Job[] = [
     tag: "live product",
     points: [
       "Built an AI-native workspace unifying GitHub, Google Calendar, and Jira behind a single conversational interface.",
-      "Designed the agent layer that maps plain-English requests onto real, workspace-scoped tool calls — with every call traced and visible.",
+      "Designed the agent layer that maps plain-English requests onto real, workspace-scoped tool calls, with every call traced and visible.",
       "Built delivery forecasting that folds GitHub merges into projected finish dates and flags slippage, plus cross-system engineering metrics.",
       "Shipped multi-tenant workspaces with encrypted per-workspace OAuth tokens, persistent memory, and a cost-aware model router.",
     ],
@@ -487,7 +487,7 @@ export const EXPERIENCE: Job[] = [
     rl: "Sole builder",
     tag: "age 13 → 16",
     points: [
-      "Started a social platform at 13 — feed, stories, reels, messaging with voice notes, and audio and video calling — and returned three years later to ship it on Google Play.",
+      "Started a social platform at 13: feed, stories, reels, messaging with voice notes, and audio and video calling. Returned three years later to ship it on Google Play.",
       "Sole developer: product, design, brand, and all engineering.",
       "Paused three years rather than scope the design down, then finished it once the skill caught up.",
     ],
@@ -566,8 +566,8 @@ export const TESTIMONIALS: { initial: string; quote: ReactNode; by: string; role
     initial: "M",
     quote: (
       <>
-        Calm, precise, and relentless. He reads the boring places so the important things <em>don&apos;t stay unseen</em>{" "}
-        — and ships before anyone expects it.
+        Calm, precise, and relentless. He reads the boring places so the important things <em>don&apos;t stay unseen</em>,
+        and ships before anyone expects it.
       </>
     ),
     by: "Mentor",

@@ -54,13 +54,13 @@ export const CASES: Record<string, CaseStudy> = {
     name: "Troco",
     title: "Troco — Case Study · Teninlanimi Taiwo",
     description:
-      "Troco — a secure, escrow-based fintech platform. Founding & Senior Engineer. Full project breakdown.",
+      "Troco: a secure, escrow-based fintech platform. Founding & Senior Engineer. Full project breakdown.",
     kicker: "Case Study · 02",
     visit: { label: "Visit troco.ng", href: "https://www.troco.ng", external: true },
     headline: ["Troco — a marketplace built on ", "trust", ", not hope."],
     tagline: (
       <>
-        A secure, escrow-based <b>e-commerce marketplace</b> where money is held until both sides are satisfied — with
+        A secure, escrow-based <b>e-commerce marketplace</b> where money is held until both sides are satisfied, with
         real-time order tracking, dispute resolution, in-app chat, and three-party broker flows.{" "}
         <b>Live on Google Play with 1,000+ Android users in the first three months.</b>
       </>
@@ -85,18 +85,18 @@ export const CASES: Record<string, CaseStudy> = {
         h2: "The problem was trust. Money moves before goods do.",
         prose: [
           <>
-            Peer-to-peer commerce in Nigeria runs on faith — buyers pay first and hope, or sellers ship first and hope.{" "}
+            Peer-to-peer commerce in Nigeria runs on faith: buyers pay first and hope, or sellers ship first and hope.{" "}
             <b>Troco removes the hope.</b> It&apos;s an e-commerce marketplace where funds are held in escrow and only
             released when both sides are satisfied, with a full audit trail in between.
           </>,
           <>
-            I joined as the founding engineer and built the product from scratch — owning the technical foundation, the
+            I joined as the founding engineer and built the product from scratch, owning the technical foundation, the
             architecture, and the team that grew around it. I later spearheaded the <b>strategic pivot</b> that
             repositioned Troco from a single-purpose escrow tool into a full marketplace app, backed by an internal{" "}
             <b>admin web platform</b> for order verification, driver dispatch, and dispute handling.
           </>,
           <>
-            The hard part wasn&apos;t the happy path — it was the disputes, the partial refunds, the three-party broker
+            The hard part wasn&apos;t the happy path; it was the disputes, the partial refunds, the three-party broker
             flows, and keeping all of it real-time and legible to non-technical users handling real money.
           </>,
         ],
@@ -208,7 +208,7 @@ export const CASES: Record<string, CaseStudy> = {
     slug: "qobi",
     name: "Qobi",
     title: "Qobi — Case Study · Teninlanimi Taiwo",
-    description: "Qobi — a privacy-first AI co-pilot for ALU students. Founder. Full project breakdown.",
+    description: "Qobi: a privacy-first AI co-pilot for ALU students. Founder. Full project breakdown.",
     kicker: "Case Study · 03 · ALU Claude Builders Club",
     visit: { label: "Visit qobi-copilot.xyz", href: "https://www.qobi-copilot.xyz", external: true },
     headline: ["Qobi — the co-pilot that reads the ", "boring places."],
@@ -216,7 +216,7 @@ export const CASES: Record<string, CaseStudy> = {
       <>
         A privacy-first AI co-pilot that reads a student&apos;s ALU inbox and Canvas <b>read-only,</b> surfaces buried
         obligations, and reasons about how one slip cascades across academics, money, standing, and visa.{" "}
-        <b>Founded at the Claude Builders Club hackathon — shipped in 4 days.</b>
+        <b>Founded at the Claude Builders Club hackathon, shipped in 4 days.</b>
       </>
     ),
     platforms: [
@@ -237,18 +237,18 @@ export const CASES: Record<string, CaseStudy> = {
         h2: "One missed email shouldn't cost you your visa.",
         prose: [
           <>
-            At ALU, the consequences of a single missed obligation don&apos;t stay contained — a late submission can
+            At ALU, the consequences of a single missed obligation don&apos;t stay contained: a late submission can
             ripple into <b>grades, money owed, academic standing, and even visa status.</b> The signal is buried in
             inboxes and Canvas, exactly where students stop looking.
           </>,
           <>
             Qobi connects <b>read-only</b> to Gmail and Canvas, surfaces what&apos;s actually at stake, and reasons across
-            domains — tracing how one slip in one place cascades into others. This is where I started taking the AI
+            domains, tracing how one slip in one place cascades into others. This is where I started taking the AI
             direction seriously, and it set the tone for everything since.
           </>,
           <>
             Privacy was the constraint, not an afterthought: read-only scopes, no writing back, and a design that earns
-            trust before it asks for access. The whole thing — web <em>and</em> mobile — was conceived and shipped in{" "}
+            trust before it asks for access. The whole thing, web <em>and</em> mobile, was conceived and shipped in{" "}
             <b>4 days</b> at the Claude Builders Club hackathon.
           </>,
         ],
@@ -257,16 +257,16 @@ export const CASES: Record<string, CaseStudy> = {
         kind: "kpis",
         label: "02 — Impact",
         items: [
-          { v: <b>4 days</b>, l: "Concept to shipped product — at a hackathon" },
+          { v: <b>4 days</b>, l: "Concept to shipped product, at a hackathon" },
           { v: <b>2</b>, l: "Platforms built in parallel: web + mobile" },
-          { v: <b>Read-only</b>, l: "Gmail + Canvas access — never writes back" },
+          { v: <b>Read-only</b>, l: "Gmail + Canvas access, never writes back" },
           { v: <b>4</b>, l: "Life domains reasoned across: academics, money, standing, visa" },
         ],
       },
       {
         kind: "resp",
         label: "03 — My role & responsibility",
-        h2: "Founder — origin insight to shipped.",
+        h2: "Founder: origin insight to shipped.",
         items: [
           {
             n: "01",
@@ -305,7 +305,7 @@ export const CASES: Record<string, CaseStudy> = {
         quote: (
           <>
             Calm, precise, and relentless. He reads the boring places so the important things{" "}
-            <em>don&apos;t stay unseen</em> — and ships before anyone expects it.
+            <em>don&apos;t stay unseen</em>, and ships before anyone expects it.
           </>
         ),
         avatar: "M",
@@ -347,15 +347,16 @@ export const CASES: Record<string, CaseStudy> = {
     name: "Khove",
     title: "Khove — Case Study · Teninlanimi Taiwo",
     description:
-      "Khove — an AI-native workspace unifying GitHub, Google Calendar and Jira behind one conversational interface. Founder. Full project breakdown.",
+      "Khove: an AI-native workspace unifying GitHub, Google Calendar and Jira behind one conversational interface. Founder. Full project breakdown.",
     kicker: "Case Study · 04",
     visit: { label: "Visit khove.xyz", href: "https://www.khove.xyz", external: true },
     headline: ["Khove — your tools, finally ", "thinking together."],
     tagline: (
       <>
-        An AI-native workspace that puts <b>GitHub, Google Calendar and Jira behind a single conversational interface</b>{" "}
-        — so you can plan, track and ship without switching tabs. Ask in plain English; Khove routes the request, pulls
-        context across every tool, and takes the action.
+        An AI-native workspace that puts{" "}
+        <b>GitHub, Google Calendar and Jira behind a single conversational interface</b>, so you can plan, track and
+        ship without switching tabs. Ask in plain English; Khove routes the request, pulls context across every tool,
+        and takes the action.
       </>
     ),
     platforms: [
@@ -376,13 +377,13 @@ export const CASES: Record<string, CaseStudy> = {
         h2: "Context lives in three tabs. Nobody's job is stitching it together.",
         prose: [
           <>
-            An engineer&apos;s day is spread across a repo, a calendar and a tracker — and the answer to &quot;what needs
+            An engineer&apos;s day is spread across a repo, a calendar and a tracker, and the answer to &quot;what needs
             my attention&quot; exists in none of them alone. It exists in the overlap, which a human has to assemble by
             hand, every morning.
           </>,
           <>
             Khove collapses that. It reads across <b>GitHub, Google Calendar and Jira</b>, answers in one place, and then{" "}
-            <b>acts</b> — opening issues, creating tasks, blocking time. The distinction matters: most tools stop at the
+            <b>acts</b>: opening issues, creating tasks, blocking time. The distinction matters: most tools stop at the
             summary. Khove is built so the answer comes with the action attached.
           </>,
           <>
@@ -396,7 +397,7 @@ export const CASES: Record<string, CaseStudy> = {
         label: "02 — What it does",
         items: [
           { v: <b>One</b>, l: "Conversational interface across every connected tool" },
-          { v: <b>Acts</b>, l: "Creates tasks, opens issues, books time — not just answers" },
+          { v: <b>Acts</b>, l: "Creates tasks, opens issues, books time, not just answers" },
           { v: <b>Forecasts</b>, l: "Projected finish, velocity and days late per initiative" },
           { v: <b>Memory</b>, l: "Persistent context carried between conversations" },
           { v: <b>Teams</b>, l: "Workspace-scoped integrations, shared memory and standups" },
@@ -410,7 +411,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "01",
             b: "Workspace-scoped everything",
-            span: "Each workspace connects its own accounts with encrypted tokens. No shared credentials, no cross-tenant leakage — the thing that makes team adoption survivable.",
+            span: "Each workspace connects its own accounts with encrypted tokens. No shared credentials, no cross-tenant leakage: the thing that makes team adoption survivable.",
           },
           {
             n: "02",
@@ -425,7 +426,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "04",
             b: "Memory as a product feature",
-            span: "Persistent memory learns working preferences and stops re-asking setup questions — the difference between a demo and a daily habit.",
+            span: "Persistent memory learns working preferences and stops re-asking setup questions: the difference between a demo and a daily habit.",
           },
           {
             n: "05",
@@ -435,7 +436,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "06",
             b: "Read across, then offer",
-            span: "Khove proposes the action and waits for confirmation, and the conversation shows every tool call it made to get there. Agentic, but auditable — essential when it has write access to real systems.",
+            span: "Khove proposes the action and waits for confirmation, and the conversation shows every tool call it made to get there. Agentic, but auditable: essential when it has write access to real systems.",
           },
           {
             n: "07",
@@ -445,7 +446,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "08",
             b: "Metrics a lead reports on",
-            span: "Throughput, cycle time, review latency, deploys, stale in-progress work and sprint burndown — derived across GitHub and Jira rather than read from either.",
+            span: "Throughput, cycle time, review latency, deploys, stale in-progress work and sprint burndown, derived across GitHub and Jira rather than read from either.",
           },
         ],
       },
@@ -505,7 +506,7 @@ export const CASES: Record<string, CaseStudy> = {
                 h4: "Three systems resolved into one KPI surface",
                 ps: [
                   <>
-                    A single dashboard — “Consolidated Platform First” — carrying{" "}
+                    A single dashboard, “Consolidated Platform First”, carrying{" "}
                     <b>merges, weekly throughput, cycle time, review latency, open PRs and deploys</b> from GitHub, next
                     to upcoming deadlines, today&apos;s schedule and overdue items from Google Calendar.
                   </>,
@@ -517,7 +518,7 @@ export const CASES: Record<string, CaseStudy> = {
                 ],
                 reads: (
                   <>
-                    Why it matters: the overdue column — eight ceremonies and reviews, 61–64 days stale — is exactly the
+                    Why it matters: the overdue column, eight ceremonies and reviews 61–64 days stale, is exactly the
                     signal that no single tool surfaces on its own.
                   </>
                 ),
@@ -529,9 +530,9 @@ export const CASES: Record<string, CaseStudy> = {
                 h4: "The agent shows its work before it answers",
                 ps: [
                   <>
-                    Asked “How are the state of things”, Khove expands <b>seven traced steps</b> — listed threads,
+                    Asked “How are the state of things”, Khove expands <b>seven traced steps</b>: listed threads,
                     checked sprint status, assessed delivery risk, measured delivery flow, cross-checked Jira against
-                    GitHub, checked for unplanned work — then writes a Workspace Status summarising six active
+                    GitHub, checked for unplanned work. Then it writes a Workspace Status summarising six active
                     connectivity threads and sprint state.
                   </>,
                   <>Each step is a real, permissioned tool call, not a rendering of one model response.</>,
@@ -551,8 +552,8 @@ export const CASES: Record<string, CaseStudy> = {
                 ps: [
                   <>
                     Threads with a target date become <b>initiatives</b>. Khove folds GitHub merges into a burn-up against
-                    that target and derives <b>progress, velocity, projected finish and days late</b> — here, a platform
-                    thread projected to land <b>46 days late</b>.
+                    that target and derives <b>progress, velocity, projected finish and days late</b>. Here, a platform
+                    thread is projected to land <b>46 days late</b>.
                   </>,
                   <>
                     The “What&apos;s happening” panel writes the narrative in prose and names the evidence: two linked
@@ -578,8 +579,8 @@ export const CASES: Record<string, CaseStudy> = {
                     Do / In Progress / Done counts beneath.
                   </>,
                   <>
-                    Sprints appear side by side — an active sprint <b>39 days over</b> at 67% of issues, next to an
-                    upcoming one at 0% — each with a burndown of remaining issues against ideal.
+                    Sprints appear side by side: an active sprint <b>39 days over</b> at 67% of issues, next to an
+                    upcoming one at 0%, each with a burndown of remaining issues against ideal.
                   </>,
                 ],
                 reads: (
@@ -596,8 +597,8 @@ export const CASES: Record<string, CaseStudy> = {
                 h4: "Planning where the shipping happens",
                 ps: [
                   <>
-                    A month view synced two-way with <b>Google Calendar</b> — daily standups, sprint planning, PR reviews,
-                    design reviews, release cutovers and personal events — filterable by meetings versus events and
+                    A month view synced two-way with <b>Google Calendar</b>: daily standups, sprint planning, PR reviews,
+                    design reviews, release cutovers and personal events, filterable by meetings versus events and
                     colour-coded by source.
                   </>,
                   <>
@@ -608,7 +609,7 @@ export const CASES: Record<string, CaseStudy> = {
                 reads: (
                   <>
                     Why it matters: this closes the loop. The agent can read the calendar in chat, forecast against it in
-                    Delivery, and write to it here — one permission model across all three.
+                    Delivery, and write to it here. One permission model across all three.
                   </>
                 ),
               },
@@ -620,11 +621,11 @@ export const CASES: Record<string, CaseStudy> = {
                 ps: [
                   <>
                     “Your tools, finally thinking together.” The hero makes a single promise and shows the integration
-                    constellation rather than a feature list — GitHub, Calendar, Jira, Slack, Notion, GitLab, Meet,
+                    constellation rather than a feature list: GitHub, Calendar, Jira, Slack, Notion, GitLab, Meet,
                     Teams, Azure orbiting the mark.
                   </>,
                   <>
-                    Below it: free-forever plan, no credit card, and <b>every integration free on every tier</b> — pricing
+                    Below it: free-forever plan, no credit card, and <b>every integration free on every tier</b>. Pricing
                     charges for AI actions instead.
                   </>,
                 ],
@@ -648,13 +649,13 @@ export const CASES: Record<string, CaseStudy> = {
     name: "Orems",
     title: "Orems — Case Study · Teninlanimi Taiwo",
     description:
-      "Orems — a mobile-first commerce and escrow platform. Lead / Founding Engineer. Full project breakdown.",
+      "Orems: a mobile-first commerce and escrow platform. Lead / Founding Engineer. Full project breakdown.",
     kicker: "Case Study · 05",
     visit: DISCUSS,
     headline: ["Orems — secure commerce, ", "end to end."],
     tagline: (
       <>
-        A mobile-first commerce and escrow platform ensuring secure payments between individuals and businesses —{" "}
+        A mobile-first commerce and escrow platform ensuring secure payments between individuals and businesses:{" "}
         <b>real-time tracking, automated workflows, and dispute protection,</b> from cart to settlement.
       </>
     ),
@@ -676,14 +677,14 @@ export const CASES: Record<string, CaseStudy> = {
         h2: "A marketplace where payment safety is the default.",
         prose: [
           <>
-            Orems brings <b>escrow-grade protection to everyday commerce</b> — between individuals and businesses alike.
+            Orems brings <b>escrow-grade protection to everyday commerce</b>, between individuals and businesses alike.
             Money is held safely until both parties confirm, with tracking and automated workflows handling the steps in
             between.
           </>,
           <>
             I led the engineering effort and owned the technical direction, architecture, and hands-on development from
             the first commit. The mandate was a mobile-first experience that felt effortless while doing serious work
-            underneath — trust, security, and settlement for real transactions.
+            underneath: trust, security, and settlement for real transactions.
           </>,
           <>
             The emphasis throughout was reliability: getting money movement and dispute handling right, because in this
@@ -744,7 +745,7 @@ export const CASES: Record<string, CaseStudy> = {
         label: "05 — Client satisfaction",
         quote: (
           <>
-            He took an ambiguous brief and returned a <em>shippable platform</em> — owning the architecture and the hard
+            He took an ambiguous brief and returned a <em>shippable platform</em>, owning the architecture and the hard
             security decisions without being asked twice.
           </>
         ),
@@ -790,7 +791,7 @@ export const CASES: Record<string, CaseStudy> = {
     name: "AgriLink",
     title: "AgriLink — Case Study · Teninlanimi Taiwo",
     description:
-      "Agrilink — connecting smallholder farmers to buyers and credit. Built under Afrinovators, a student agritech think tank at ALU.",
+      "Agrilink: connecting smallholder farmers to buyers and credit. Built under Afrinovators, a student agritech think tank at ALU.",
     kicker: "Case Study · 06 · Afrinovators",
     visit: { label: "Visit Afrinovators", href: "https://afrinovators.vercel.app", external: true },
     headline: ["AgriLink — the solution, ", "in your hands."],
@@ -798,7 +799,7 @@ export const CASES: Record<string, CaseStudy> = {
       <>
         A working <b>marketplace-and-training prototype</b> for Ikot Ekpene farmers: sell produce to verified buyers,
         browse a buyers&apos; market with search and listings, check local weather, and ask an agricultural expert in
-        chat. Interactive, with sample data and no sign-up — built under <b>Afrinovators</b>, a student agritech think
+        chat. Interactive, with sample data and no sign-up. Built under <b>Afrinovators</b>, a student agritech think
         tank at ALU.
       </>
     ),
@@ -821,12 +822,12 @@ export const CASES: Record<string, CaseStudy> = {
         prose: [
           <>
             Despite the Akwa Ibom Government&apos;s <b>ARISE Agenda (2023)</b> and related youth-empowerment programmes,
-            unemployment in Ikot Ekpene sits at <b>51% — the second highest in Nigeria</b> (NBS, 2022). It hits youths,
+            unemployment in Ikot Ekpene sits at <b>51%, the second highest in Nigeria</b> (NBS, 2022). It hits youths,
             graduates, women and low-income households hardest.
           </>,
           <>
             The land produces; the value leaks out before it reaches the people who farmed it. Smallholders sell to
-            whatever buyer is physically nearby, at whatever price is offered, with no capital to wait for a better one —
+            whatever buyer is physically nearby, at whatever price is offered, with no capital to wait for a better one,
             and with roughly <b>one extension officer per 2,000+ farmers</b>, almost no support in between.
           </>,
           <>
@@ -834,9 +835,9 @@ export const CASES: Record<string, CaseStudy> = {
             becomes income rather than a distress sale.
           </>,
           <>
-            The prototype is deliberately interactive — sample data, no sign-up, tappable on a phone — because
-            Afrinovators&apos; real risk was ending as a well-argued report. My role was making sure it ended as something
-            you could open and use instead.
+            Because Afrinovators&apos; real risk was ending as a well-argued report, the prototype is deliberately
+            interactive: sample data, no sign-up, tappable on a phone. My role was making sure it ended as something you
+            could open and use instead.
           </>,
         ],
       },
@@ -844,9 +845,9 @@ export const CASES: Record<string, CaseStudy> = {
         kind: "kpis",
         label: "02 — The problem, in numbers",
         items: [
-          { v: <b>51%</b>, l: "Unemployment in Ikot Ekpene — 2nd highest in Nigeria (NBS, 2022)" },
+          { v: <b>51%</b>, l: "Unemployment in Ikot Ekpene, 2nd highest in Nigeria (NBS, 2022)" },
           { v: <b>1.8M</b>, l: "Unemployed, of 3.3M economically active people" },
-          { v: <b>1:2,000+</b>, l: "Extension officer per farmers — almost no support layer" },
+          { v: <b>1:2,000+</b>, l: "Extension officer per farmers, almost no support layer" },
           { v: <b>2026–30</b>, l: "The window to act before it worsens" },
         ],
       },
@@ -868,7 +869,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "03",
             b: "Support, not just transactions",
-            span: "Local weather and farming guidance, plus an agricultural expert reachable in chat — the layer that's missing when there's one extension officer per 2,000+ farmers.",
+            span: "Local weather and farming guidance, plus an agricultural expert reachable in chat: the layer that's missing when there's one extension officer per 2,000+ farmers.",
           },
           {
             n: "04",
@@ -932,13 +933,13 @@ export const CASES: Record<string, CaseStudy> = {
     slug: "star-taskz",
     name: "Star Taskz",
     title: "Star Taskz — Case Study · Teninlanimi Taiwo",
-    description: "Star Taskz — a conversational-AI task manager you talk to. Builder. Full project breakdown.",
+    description: "Star Taskz: a conversational-AI task manager you talk to. Builder. Full project breakdown.",
     kicker: "Case Study · 07",
     visit: DISCUSS,
     headline: ["Star Taskz — the task manager you ", "talk to."],
     tagline: (
       <>
-        A conversational-AI task manager driven by natural voice — create, manage, and complete tasks by speaking.{" "}
+        A conversational-AI task manager driven by natural voice: create, manage, and complete tasks by speaking.{" "}
         <b>Speech-to-text, intelligent reminders, productivity insights,</b> and sync with Google Calendar, GitHub,
         Notion, and Jira for a fully connected workflow.
       </>
@@ -961,14 +962,14 @@ export const CASES: Record<string, CaseStudy> = {
         h2: "The fastest way to capture a task is to say it.",
         prose: [
           <>
-            Typing breaks flow. Star Taskz lets you <b>create, manage, and complete tasks by talking</b> — natural voice
+            Typing breaks flow. Star Taskz lets you <b>create, manage, and complete tasks by talking</b>: natural voice
             in, structured tasks out. Speech-to-text handles the capture; the system handles the organising, reminding,
             and surfacing.
           </>,
           <>
             Beyond capture, it closes the loop on a real workflow: <b>intelligent reminders, productivity insights,</b>{" "}
-            and sync with <b>Google Calendar, GitHub, Notion, and Jira</b> so tasks live where the work actually happens
-            — not in a silo you forget to open.
+            and sync with <b>Google Calendar, GitHub, Notion, and Jira</b> so tasks live where the work actually
+            happens, not in a silo you forget to open.
           </>,
           <>
             The interesting design problem was trust in transcription: making a voice-first interface feel reliable
@@ -1026,7 +1027,7 @@ export const CASES: Record<string, CaseStudy> = {
         label: "05 — Client satisfaction",
         quote: (
           <>
-            It actually changed how I capture work — I just <em>talk, and it&apos;s handled.</em> The GitHub sync means
+            It actually changed how I capture work. I just <em>talk, and it&apos;s handled.</em> The GitHub sync means
             nothing falls through the cracks anymore.
           </>
         ),
@@ -1060,13 +1061,13 @@ export const CASES: Record<string, CaseStudy> = {
     name: "Axel",
     title: "Axel — Case Study · Teninlanimi Taiwo",
     description:
-      "Axel — a full social platform with feed, stories, reels, messaging, voice notes and calling. Started at 13, shipped at 16 as sole developer.",
+      "Axel: a full social platform with feed, stories, reels, messaging, voice notes and calling. Started at 13, shipped at 16 as sole developer.",
     kicker: "Case Study · 08 · Where it started",
     visit: DISCUSS,
     headline: ["Axel — your people, ", "full screen."],
     tagline: (
       <>
-        A social platform with <b>feed, stories, reels, direct messaging, voice notes, and audio and video calling</b> —
+        A social platform with <b>feed, stories, reels, direct messaging, voice notes, and audio and video calling</b>,
         free on Android. My own idea, built alone, started at <b>13</b> and shipped at <b>16</b>: I designed it well past
         what I could then execute, left it for three years rather than cut it down, and came back once the skill had
         caught up.
@@ -1094,7 +1095,7 @@ export const CASES: Record<string, CaseStudy> = {
             and voice notes get the whole screen, and the interface recedes while your friends look.
           </>,
           <>
-            Delivering that meant building a real social platform, not a feed mock-up —{" "}
+            Delivering that meant building a real social platform, not a feed mock-up:{" "}
             <b>
               stories, a multi-reaction post feed, reels, direct messaging with voice notes, and both audio and video
               calling.
@@ -1103,7 +1104,7 @@ export const CASES: Record<string, CaseStudy> = {
           </>,
           <>
             The obvious move was to cut it down to what I could manage. I didn&apos;t. I <b>left it for three years</b>,
-            built other things, got good enough, and came back at 16 to ship the original design — on Google Play, free
+            built other things, got good enough, and came back at 16 to ship the original design, on Google Play, free
             on Android.
           </>,
           <>
@@ -1118,7 +1119,7 @@ export const CASES: Record<string, CaseStudy> = {
         label: "02 — Why it's here",
         items: [
           { v: <b>13→16</b>, l: "Started at thirteen, shipped at sixteen" },
-          { v: <b>Solo</b>, l: "Sole developer — product, design and engineering" },
+          { v: <b>Solo</b>, l: "Sole developer: product, design and engineering" },
           { v: <b>Android</b>, l: "Shipped free on Google Play" },
           { v: <b>3 yrs</b>, l: "Deliberately paused rather than scoped down" },
         ],
@@ -1136,7 +1137,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "02",
             b: "The social core",
-            span: "Stories, a multi-reaction post feed with social proof and inline comments, reels, and profiles — the full consumer surface.",
+            span: "Stories, a multi-reaction post feed with social proof and inline comments, reels, and profiles. The full consumer surface.",
           },
           {
             n: "03",
@@ -1146,7 +1147,7 @@ export const CASES: Record<string, CaseStudy> = {
           {
             n: "04",
             b: "Voice and video calling",
-            span: "One-to-one audio and video calls with ringing, in-call controls, camera switching and call duration — the hardest thing on the list, and the reason three years of waiting was the right call.",
+            span: "One-to-one audio and video calls with ringing, in-call controls, camera switching and call duration: the hardest thing on the list, and the reason three years of waiting was the right call.",
           },
           {
             n: "05",

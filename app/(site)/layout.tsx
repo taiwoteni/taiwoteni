@@ -7,7 +7,7 @@ import "./site.css";
 const title = "Teninlanimi (Teni) Taiwo — Solutions Architect, Builder & Founder";
 const social = {
   title: "Teninlanimi (Teni) Taiwo — Engineer & Founder",
-  description: "Secure, intelligent systems — from national infrastructure to products people actually use.",
+  description: "Secure, intelligent systems, from national infrastructure to products people actually use.",
 };
 
 export const metadata: Metadata = {
