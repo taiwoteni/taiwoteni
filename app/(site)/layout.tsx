@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import FontLinks from "@/components/FontLinks";
 import { HOME_DESCRIPTION } from "@/lib/seo";
-import { BASE_METADATA, SITE_NAME } from "@/lib/site";
+import { BASE_METADATA, SITE_BRAND } from "@/lib/site";
 import "./site.css";
 
 const title = "Teninlanimi (Teni) Taiwo — Solutions Architect, Builder & Founder";
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   title,
   description: HOME_DESCRIPTION,
   alternates: { canonical: "/" },
-  openGraph: { type: "profile", url: "/", siteName: SITE_NAME, locale: "en_US", firstName: "Teninlanimi", lastName: "Taiwo", ...social },
+  openGraph: { type: "profile", url: "/", siteName: SITE_BRAND, locale: "en_US", firstName: "Teninlanimi", lastName: "Taiwo", ...social },
   twitter: { card: "summary_large_image", ...social },
   // Google Search Console HTML-tag verification (optional if verifying via DNS).
   verification: process.env.GOOGLE_SITE_VERIFICATION ? { google: process.env.GOOGLE_SITE_VERIFICATION } : undefined,

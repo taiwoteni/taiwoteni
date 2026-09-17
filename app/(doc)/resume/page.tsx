@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { JsonLd, resumeJsonLd } from "@/lib/seo";
-import { CONTACT_EMAIL, LINKEDIN_URL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, LINKEDIN_URL, SITE_BRAND, SITE_URL } from "@/lib/site";
 
 const title = "Teninlanimi Taiwo — Résumé";
 const description =
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: { absolute: title },
   description,
   alternates: { canonical: "/resume" },
-  openGraph: { type: "profile", url: "/resume", siteName: SITE_NAME, locale: "en_US", title, description },
+  openGraph: { type: "profile", url: "/resume", siteName: SITE_BRAND, locale: "en_US", title, description },
   twitter: { card: "summary_large_image", title, description },
 };
 

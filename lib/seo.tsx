@@ -1,4 +1,4 @@
-import { CONTACT_EMAIL, GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL, SITE_NAME, SITE_URL } from "@/lib/site";
+import { CONTACT_EMAIL, GITHUB_URL, INSTAGRAM_URL, LINKEDIN_URL, SITE_BRAND, SITE_NAME, SITE_URL } from "@/lib/site";
 
 const abs = (path: string) => `${SITE_URL}${path}`;
 
@@ -45,7 +45,15 @@ export function personSchema() {
 }
 
 export function websiteSchema() {
-  return { "@type": "WebSite", "@id": WEBSITE_ID, url: abs("/"), name: SITE_NAME, inLanguage: "en", publisher: { "@id": PERSON_ID } };
+  return {
+    "@type": "WebSite",
+    "@id": WEBSITE_ID,
+    url: abs("/"),
+    name: SITE_BRAND,
+    alternateName: SITE_NAME,
+    inLanguage: "en",
+    publisher: { "@id": PERSON_ID },
+  };
 }
 
 export function homeJsonLd() {

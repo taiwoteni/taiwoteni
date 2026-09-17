@@ -4,7 +4,7 @@ import CaseStudy from "@/components/case/CaseStudy";
 import { CASES, CASE_ORDER } from "@/lib/cases";
 import { WORK } from "@/lib/home";
 import { JsonLd, caseJsonLd } from "@/lib/seo";
-import { SITE_NAME } from "@/lib/site";
+import { SITE_BRAND } from "@/lib/site";
 
 type Props = { params: { slug: string } };
 
@@ -25,7 +25,7 @@ export function generateMetadata({ params }: Props): Metadata {
     openGraph: {
       type: "article",
       url: path,
-      siteName: SITE_NAME,
+      siteName: SITE_BRAND,
       locale: "en_US",
       title: data.title,
       description: data.description,

@@ -3,6 +3,8 @@ import type { Metadata } from "next";
 /** Canonical origin. The apex (teninlanimi.xyz) 308-redirects to www, so www is canonical. */
 export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.teninlanimi.xyz").replace(/\/$/, "");
 export const SITE_NAME = "Teninlanimi Taiwo";
+/** Site name Google is asked to show above the URL (og:site_name + WebSite schema). */
+export const SITE_BRAND = "Teni Taiwo";
 
 export const CONTACT_EMAIL = "teninlanimitaiwo@gmail.com";
 export const LINKEDIN_URL = "https://www.linkedin.com/in/teninlanimi-taiwo/";
