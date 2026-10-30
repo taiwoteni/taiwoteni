@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Script from "next/script";
+import PrintButton from "@/components/doc/PrintButton";
 import { JsonLd, resumeJsonLd } from "@/lib/seo";
 import { CONTACT_EMAIL, LINKEDIN_URL, SITE_BRAND, SITE_URL } from "@/lib/site";
 
@@ -266,6 +267,7 @@ const EDUCATION: [string, string, string][] = [
 export default function ResumePage() {
   return (
     <>
+      <PrintButton />
       <doc-page margin="0.66in">
         <div className="hdr" slot="header">
           <span>Teninlanimi Taiwo — Résumé</span>

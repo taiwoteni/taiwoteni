@@ -52,3 +52,11 @@ li b{color:var(--ink);font-weight:600}
 .hdr{padding-bottom:calc(var(--u)*1);border-bottom:.6pt solid var(--hair)}
 .ftr{padding-top:calc(var(--u)*1);border-top:.6pt solid var(--hair)}
 @media(max-width:700px){.grid2{grid-template-columns:1fr}.rhead{grid-template-columns:1fr;align-items:start}.contact{text-align:left}}
+
+/* download button (screen only) */
+.print-btn{position:fixed;top:22px;right:22px;z-index:20;display:inline-flex;align-items:center;gap:9px;font-family:var(--sans);font-size:14px;font-weight:500;color:#fff;background:var(--red);border:0;border-radius:999px;padding:12px 20px;cursor:pointer;box-shadow:0 8px 24px rgba(200,40,29,.28);transition:transform .25s cubic-bezier(.2,.7,.2,1),box-shadow .25s}
+.print-btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(200,40,29,.34)}
+.print-btn:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+.print-btn svg{width:16px;height:16px;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:700px){.print-btn{top:auto;bottom:16px;right:16px;padding:11px 18px;font-size:13.5px}}
+@media print{.print-btn{display:none!important}}
