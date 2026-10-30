@@ -1,7 +1,7 @@
 import { Fragment } from "react";
 import HomeEffects from "@/components/site/HomeEffects";
 import { ArrowExternal, ArrowRight, LockKeyhole } from "@/components/Svg";
-import { EDUCATION, EXPERIENCE, ORGS, STACK, TESTIMONIALS, WALKTHROUGHS, WORK, type WorkCard } from "@/lib/home";
+import { EDUCATION, EXPERIENCE, ORGS, STACK, /* TESTIMONIALS, */ WALKTHROUGHS, WORK, type WorkCard } from "@/lib/home";
 import { JsonLd, homeJsonLd } from "@/lib/seo";
 import { CONTACT_EMAIL, CONTACT_TOPICS, LINKEDIN_URL } from "@/lib/site";
 
@@ -363,6 +363,8 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* Testimonials hidden until real quotes come in. To restore: uncomment this block, re-add
+          TESTIMONIALS to the @/lib/home import, and set Contact back to "08".
       <section id="testimonials">
         <div className="wrap">
           <div className="lbl rv">07 — Testimonials</div>
@@ -425,6 +427,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      */}
 
       <section id="resume" style={{ paddingTop: 0 }}>
         <div className="wrap">
@@ -448,7 +451,7 @@ export default function HomePage() {
 
       <section id="contact">
         <div className="wrap">
-          <div className="lbl rv">08 — Contact</div>
+          <div className="lbl rv">07 — Contact</div>
           <div className="cg">
             <div className="rv">
               <h2>

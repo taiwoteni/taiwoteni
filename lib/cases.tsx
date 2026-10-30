@@ -164,6 +164,7 @@ export const CASES: Record<string, CaseStudy> = {
           },
         ],
       },
+      /* Client satisfaction hidden until real quotes come in. To restore: uncomment, set Screens back to "06".
       {
         kind: "sat",
         label: "05 — Client satisfaction",
@@ -177,9 +178,10 @@ export const CASES: Record<string, CaseStudy> = {
         by: "R. A.",
         role: "Co-founder · Troco",
       },
+      */
       {
         kind: "screens",
-        label: "06 — Screens",
+        label: "05 — Screens",
         h2: "Inside the product.",
         blocks: [
           {
@@ -299,6 +301,7 @@ export const CASES: Record<string, CaseStudy> = {
           { h4: "Mobile & AI", chips: ["Flutter", "Dart", "Claude API", "Gmail + Canvas APIs", "& many more"] },
         ],
       },
+      /* Client satisfaction hidden until real quotes come in. To restore: uncomment, set Screens back to "06".
       {
         kind: "sat",
         label: "05 — Client satisfaction",
@@ -312,9 +315,10 @@ export const CASES: Record<string, CaseStudy> = {
         by: "Mentor",
         role: "ALU Claude Builders Club",
       },
+      */
       {
         kind: "screens",
-        label: "06 — Screens",
+        label: "05 — Screens",
         h2: "Inside the product.",
         blocks: [
           {
@@ -740,6 +744,7 @@ export const CASES: Record<string, CaseStudy> = {
           },
         ],
       },
+      /* Client satisfaction hidden until real quotes come in. To restore: uncomment, set Screens back to "06".
       {
         kind: "sat",
         label: "05 — Client satisfaction",
@@ -753,9 +758,10 @@ export const CASES: Record<string, CaseStudy> = {
         by: "Founder",
         role: "Orems Cybernetics",
       },
+      */
       {
         kind: "screens",
-        label: "06 — Screens",
+        label: "05 — Screens",
         h2: "Inside the product.",
         blocks: [
           {
@@ -1022,6 +1028,7 @@ export const CASES: Record<string, CaseStudy> = {
           { h4: "Integrations", chips: ["Google Calendar", "GitHub", "Notion", "Jira"] },
         ],
       },
+      /* Client satisfaction hidden until real quotes come in. To restore: uncomment, set Screens back to "06".
       {
         kind: "sat",
         label: "05 — Client satisfaction",
@@ -1035,9 +1042,10 @@ export const CASES: Record<string, CaseStudy> = {
         by: "Early user",
         role: "Star Taskz",
       },
+      */
       {
         kind: "screens",
-        label: "06 — Screens",
+        label: "05 — Screens",
         h2: "Inside the product.",
         blocks: [
           {
