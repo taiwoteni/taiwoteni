@@ -81,7 +81,7 @@ export default function HomePage() {
         <div className="hero-r">
           <div className="plate-fallback">T</div>
           <div className="plate" id="plate">
-            <img src="/assets/teni.jpg" alt="Teninlanimi Taiwo" />
+            <img src="/assets/teni.jpg" alt="Teni Taiwo (Teninlanimi Taiwo) in a red T-shirt, hands clasped" />
           </div>
           <div className="floats">
             <div className="fl fl-1">
@@ -278,7 +278,7 @@ export default function HomePage() {
           <div className="ab">
             <div className="rv">
               <div className="pf">
-                <img src="/assets/teni2.jpeg" alt="Teninlanimi Taiwo" />
+                <img src="/assets/teni2.jpeg" alt="Black-and-white portrait of Teninlanimi (Teni) Taiwo" />
                 <div className="cap">Kigali · Lagos</div>
               </div>
             </div>

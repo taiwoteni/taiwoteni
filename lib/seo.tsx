@@ -15,7 +15,22 @@ export function personSchema() {
     name: SITE_NAME,
     alternateName: ["Teni Taiwo", "Teni"],
     url: abs("/"),
-    image: abs("/assets/teni.jpg"),
+    image: [
+      {
+        "@type": "ImageObject",
+        url: abs("/assets/teni.jpg"),
+        caption: "Teni Taiwo (Teninlanimi Taiwo)",
+        width: 560,
+        height: 700,
+      },
+      {
+        "@type": "ImageObject",
+        url: abs("/assets/teni2.jpeg"),
+        caption: "Teninlanimi (Teni) Taiwo, black-and-white portrait",
+        width: 1024,
+        height: 1024,
+      },
+    ],
     email: `mailto:${CONTACT_EMAIL}`,
     jobTitle: "Solutions Architect",
     description: HOME_DESCRIPTION,

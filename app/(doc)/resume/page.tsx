@@ -291,7 +291,9 @@ export default function ResumePage() {
 
         <div className="rhead">
           <div className="id">
-            <img src="/assets/teni.jpg" alt="Teninlanimi Taiwo" />
+            <span className="avatar">
+              <img src="/assets/teni2.jpeg" alt="Black-and-white portrait of Teninlanimi (Teni) Taiwo" />
+            </span>
             <div>
               <h1>Teninlanimi Taiwo</h1>
               <div className="role">Solutions Architect · Builder &amp; Founder</div>
