@@ -35,19 +35,19 @@ const EXPERIENCE: Entry[] = [
     ctx: "Enterprise technology firm delivering mission-critical systems to public-sector and financial institutions. Specific programmes are protected under NDA.",
     points: [
       <>
-        Translate complex executive requirements into <b>scalable, secure technical architecture</b>, acting as the
-        bridge between institutional stakeholders and engineering teams.
+        Translated complex executive requirements into <b>scalable, secure technical architecture</b>, acting as
+        the bridge between institutional stakeholders and engineering teams.
       </>,
       <>
-        Lead cross-functional senior teams designing <b>cloud infrastructure at national scale</b>, including capacity,
+        Led cross-functional senior teams designing <b>cloud infrastructure at national scale</b>, including capacity,
         resilience, and security posture.
       </>,
       <>
-        Deliver across <b>access control, revenue digitization, and operational security</b>, domains where correctness
-        and auditability are non-negotiable.
+        Delivered across <b>access control, revenue digitization, and operational security</b>, domains where
+        correctness and auditability are non-negotiable.
       </>,
       <>
-        Operate as embedded product manager on assigned programmes: scope definition, sequencing, and trade-off
+        Operated as embedded product manager on assigned programmes: scope definition, sequencing, and trade-off
         decisions alongside architecture ownership.
       </>,
     ],
@@ -76,7 +76,7 @@ const EXPERIENCE: Entry[] = [
         deploys, stale in-progress work, sprint burndown.
       </>,
       <>
-        Implemented a <b>cost-aware model router</b> and persistent memory carrying context between conversations; own
+        Implemented a <b>cost-aware model router</b> and persistent memory carrying context between conversations; owned
         product, pricing and go-to-market alongside engineering.
       </>,
     ],
@@ -132,8 +132,7 @@ const EXPERIENCE: Entry[] = [
         and visa status.
       </>,
       <>
-        Shipped web and mobile <b>in parallel in four days</b> during the Claude Builders Club hackathon; continuing
-        development.
+        Shipped web and mobile <b>in parallel in four days</b> during the Claude Builders Club hackathon.
       </>,
     ],
   },
@@ -241,15 +240,19 @@ const CAPABILITIES: [string, string][] = [
   ["Frontend", "Next.js 14 · React 18 · TypeScript · Tailwind CSS · shadcn/ui · Radix · Chart.js"],
   [
     "Backend",
-    "Spring Boot · Java · Node.js 20 · Express · Next.js API routes · Prisma · SQLite · JWT / jose · bcrypt · Zod",
+    "Spring Boot · Spring Security · Java · Python · Django · Node.js 20 · Express · Next.js API routes · WebSockets (STOMP) · JWT / jose · bcrypt · Zod",
   ],
   [
-    "Infrastructure",
-    "Docker (multi-stage) · Compose · GitHub Actions CI/CD · AWS EC2 · software testing · ESLint · Git",
+    "Data",
+    "PostgreSQL · Redis · MongoDB · MySQL · SQLite · Firebase (Firestore · Realtime Database · Auth · Storage) · Prisma · JPA / Hibernate",
+  ],
+  [
+    "Cloud & DevOps",
+    "Google Cloud (GCP) · AWS EC2 · Kubernetes · Docker (multi-stage) · Compose · GitHub Actions CI/CD · Vercel · software testing (JUnit · Jest) · ESLint · Git",
   ],
   [
     "AI & document intelligence",
-    "Claude API · LLM integration · conversational AI · speech-to-text · Tesseract.js OCR · pdf-parse · risk-scoring engines",
+    "Claude API · AWS Bedrock · LLM integration · conversational AI · speech-to-text · Tesseract.js OCR · pdf-parse · risk-scoring engines",
   ],
   [
     "Domains",

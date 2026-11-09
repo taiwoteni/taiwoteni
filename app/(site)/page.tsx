@@ -57,7 +57,7 @@ export default function HomePage() {
               </span>
             </h1>
             <div className="role-line">
-              <b>Solutions Architect</b> <s>/</s> <b>Builder</b> <s>&amp;</s> <b>Founder</b>
+              <b>Engineer</b> <s>/</s> <b>Architect</b> <s>&amp;</s> <b>Founder</b>
             </div>
             <p className="lede">
               I build <b>secure, intelligent systems</b>: national-scale infrastructure for the public sector and
@@ -86,18 +86,18 @@ export default function HomePage() {
           <div className="floats">
             <div className="fl fl-1">
               <em>Currently</em>
-              <b>Solutions Architect</b>
-              <span>Critical, national-scale systems</span>
+              <b>Global Shaper</b>
+              <span>Kigali Hub · World Economic Forum</span>
             </div>
             <div className="fl fl-2">
-              <em>Building</em>
-              <b>Qobi</b>
-              <span>Privacy-first AI co-pilot · shipped in 4 days</span>
+              <em>Built</em>
+              <b>Troco</b>
+              <span>Escrow fintech · 1,000+ users in 3 months</span>
             </div>
             <div className="fl fl-3">
               <em>Status</em>
               <b className="dotc">
-                <i></i>Always glad to talk
+                <i></i>Open to roles
               </b>
               <span>Architecture · 0→1 product · fintech &amp; AI</span>
             </div>
@@ -167,9 +167,9 @@ export default function HomePage() {
                   Confidential Systems <span className="role">NDA</span>
                 </h3>
                 <p>
-                  My most significant work is built for <b>the public sector and financial institutions</b> and protected
-                  under NDA: national-scale access control, revenue digitization, and operational security. I translate
-                  executive requirements into architecture, then lead senior teams through delivery.
+                  My most significant work was built for <b>the public sector and financial institutions</b> and is
+                  protected under NDA: national-scale access control, revenue digitization, and operational security. I
+                  translated executive requirements into architecture, then led senior teams through delivery.
                 </p>
                 <div className="tags">
                   <span>Solutions architecture</span>
@@ -278,14 +278,14 @@ export default function HomePage() {
           <div className="ab">
             <div className="rv">
               <div className="pf">
-                <img src="/assets/teni.jpg" alt="Teninlanimi Taiwo" />
+                <img src="/assets/teni2.jpeg" alt="Teninlanimi Taiwo" />
                 <div className="cap">Kigali · Lagos</div>
               </div>
             </div>
             <div className="ab-body rv">
               <h2 className="sh">A product thinker with the precision of a senior engineer.</h2>
               <p>
-                As a <b>Solutions Architect and embedded Product Manager</b>, I lead senior engineering teams on
+                As a <b>Solutions Architect and embedded Product Manager</b>, I led senior engineering teams on
                 confidential, high-stakes systems: access control, revenue digitization, cloud infrastructure, and
                 operational security, at national scale.
               </p>

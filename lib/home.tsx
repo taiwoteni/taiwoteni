@@ -415,9 +415,9 @@ export const EXPERIENCE: Job[] = [
     rl: "Solutions Architect",
     tag: "+ embedded PM",
     points: [
-      "Translate complex executive requirements into scalable, secure technical architecture.",
-      "Lead cross-functional senior teams designing cloud infrastructure for critical, national-scale systems.",
-      "Deliver mission-critical work across access control, revenue digitization, and operational security. Engagements covered by NDA.",
+      "Translated complex executive requirements into scalable, secure technical architecture.",
+      "Led cross-functional senior teams designing cloud infrastructure for critical, national-scale systems.",
+      "Delivered mission-critical work across access control, revenue digitization, and operational security. Engagements covered by NDA.",
     ],
   },
   {
@@ -513,11 +513,34 @@ export const STACK: { h4: string; chips: string[] }[] = [
     h4: "Architecture & Leadership",
     chips: ["Solutions architecture", "System design", "Microservices", "Technical leadership", "Product management"],
   },
-  { h4: "Mobile", chips: ["Flutter", "Dart", "React Native", "Android", "iOS", "Riverpod", "Bloc"] },
-  { h4: "Frontend", chips: ["Next.js 14", "React 18", "TypeScript", "Tailwind", "shadcn/ui · Radix"] },
-  { h4: "Backend", chips: ["Spring Boot", "Java", "Node.js 20", "Express", "Prisma", "JWT · jose", "Zod"] },
-  { h4: "Infrastructure", chips: ["Docker", "Compose", "GitHub Actions", "AWS EC2", "Testing", "Git"] },
-  { h4: "AI", chips: ["Claude API", "LLM integration", "Conversational AI", "Speech-to-text", "OCR pipelines"] },
+  { h4: "Mobile", chips: ["Flutter", "Dart", "React Native", "Android", "iOS", "Riverpod", "Bloc", "Firebase"] },
+  { h4: "Frontend", chips: ["Next.js 14", "React 18", "TypeScript", "Tailwind", "shadcn/ui · Radix", "Redux"] },
+  {
+    h4: "Backend & Data",
+    chips: [
+      "Spring Boot",
+      "Java",
+      "Python · Django",
+      "Node.js 20",
+      "Express",
+      "PostgreSQL",
+      "Redis",
+      "MongoDB",
+      "MySQL",
+      "Prisma",
+      "WebSockets",
+      "JWT · jose",
+      "Zod",
+    ],
+  },
+  {
+    h4: "Cloud & DevOps",
+    chips: ["GCP", "AWS EC2", "Kubernetes", "Docker", "Compose", "GitHub Actions", "Vercel", "Testing", "Git"],
+  },
+  {
+    h4: "AI",
+    chips: ["Claude API", "AWS Bedrock", "LLM integration", "Conversational AI", "Speech-to-text", "OCR pipelines"],
+  },
 ];
 
 export const EDUCATION: { w: string; h4: string; d: string; n?: string }[] = [

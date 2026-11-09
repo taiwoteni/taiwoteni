@@ -19,7 +19,6 @@ export function personSchema() {
     email: `mailto:${CONTACT_EMAIL}`,
     jobTitle: "Solutions Architect",
     description: HOME_DESCRIPTION,
-    worksFor: { "@type": "Organization", name: "Softcom Limited" },
     alumniOf: [
       { "@type": "CollegeOrUniversity", name: "African Leadership University" },
       { "@type": "EducationalOrganization", name: "National Institute of Information Technology" },
