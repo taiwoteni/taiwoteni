@@ -399,7 +399,17 @@ export type Job = { when: string; org: string; loc: string; rl: string; tag?: st
 
 export const EXPERIENCE: Job[] = [
   {
-    when: "Oct 2025 — Present",
+    when: "Oct 2026 — Present",
+    org: "Global Shapers Community",
+    loc: "Kigali, Rwanda",
+    rl: "Global Shaper",
+    tag: "Kigali Hub",
+    points: [
+      "Member of the Kigali Hub, part of the World Economic Forum's network of young people driving change in their cities.",
+    ],
+  },
+  {
+    when: "Oct 2025 — Oct 2026",
     org: "Softcom Limited",
     loc: "Lagos / Kigali",
     rl: "Solutions Architect",
@@ -411,7 +421,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "2026 — Present",
+    when: "Jul 2026 — Oct 2026",
     org: "Qobi",
     loc: "Kigali, Rwanda",
     rl: "Founder",
@@ -423,7 +433,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "2026 — Present",
+    when: "2026 — Sep 2026",
     org: "Khove",
     loc: "Kigali, Rwanda",
     rl: "Founder",
@@ -436,7 +446,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "2026 — Present",
+    when: "2026 — Aug 2026",
     org: "Afrinovators",
     loc: "ALU · Ikot Ekpene, Nigeria",
     rl: "Technical Lead",
@@ -448,7 +458,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "Jun 2024 — Present",
+    when: "Jun 2024 — Sep 2026",
     org: "Troco Technologies",
     loc: "Lagos, Nigeria",
     rl: "Founding & Senior Software Engineer",
@@ -459,7 +469,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "Mar 2025 — Present",
+    when: "Mar 2025 — Sep 2026",
     org: "Orems Cybernetics",
     loc: "Lagos, Nigeria",
     rl: "Lead / Founding Engineer",
@@ -470,7 +480,7 @@ export const EXPERIENCE: Job[] = [
     ],
   },
   {
-    when: "2025 — Present",
+    when: "Sep 2025 — Jan 2026",
     org: "Bloom",
     loc: "Lagos, Nigeria",
     rl: "Founding Engineer & Mobile Developer",

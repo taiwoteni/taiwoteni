@@ -20,8 +20,16 @@ type Entry = { org: string; when: string; role: string; sub: string; ctx?: strin
 
 const EXPERIENCE: Entry[] = [
   {
+    org: "Global Shapers Community",
+    when: "Oct 2026 — Present",
+    role: "Global Shaper",
+    sub: "· Kigali Hub · Kigali, Rwanda",
+    ctx: "The World Economic Forum's network of young people driving change in their cities, organised into local hubs.",
+    points: [],
+  },
+  {
     org: "Softcom Limited",
-    when: "Oct 2025 — Present",
+    when: "Oct 2025 — Oct 2026",
     role: "Solutions Architect",
     sub: "· embedded Product Manager · Lagos / Kigali",
     ctx: "Enterprise technology firm delivering mission-critical systems to public-sector and financial institutions. Specific programmes are protected under NDA.",
@@ -46,7 +54,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Khove",
-    when: "2026 — Present",
+    when: "2026 — Sep 2026",
     role: "Founder",
     sub: "· Kigali, Rwanda · khove.xyz",
     ctx: "AI-native workspace unifying GitHub, Google Calendar and Jira behind a single conversational interface. Live product.",
@@ -75,7 +83,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Troco Technologies",
-    when: "Jun 2024 — Present",
+    when: "Jun 2024 — Sep 2026",
     role: "Founding & Senior Software Engineer",
     sub: "· Lagos, Nigeria",
     ctx: "Escrow-based fintech bringing trust to peer-to-peer and marketplace transactions. Live on Google Play.",
@@ -96,7 +104,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Orems Cybernetics",
-    when: "Mar 2025 — Present",
+    when: "Mar 2025 — Sep 2026",
     role: "Lead / Founding Engineer",
     sub: "· Lagos, Nigeria",
     ctx: "Mobile-first commerce and escrow platform for individuals and businesses.",
@@ -110,7 +118,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Qobi",
-    when: "2026 — Present",
+    when: "Jul 2026 — Oct 2026",
     role: "Founder",
     sub: "· ALU Claude Builders Club · Kigali, Rwanda",
     ctx: "Privacy-first AI co-pilot for university students.",
@@ -131,7 +139,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Afrinovators",
-    when: "2026 — Present",
+    when: "2026 — Aug 2026",
     role: "Technical Lead",
     sub: "· ALU student think tank · Ikot Ekpene, Nigeria",
     ctx: "Student-built agritech think tank turning fertile ground in Ikot Ekpene into work.",
@@ -147,7 +155,7 @@ const EXPERIENCE: Entry[] = [
   },
   {
     org: "Bloom",
-    when: "2025 — Present",
+    when: "Sep 2025 — Jan 2026",
     role: "Founding Engineer & Mobile Developer",
     sub: "· Lagos, Nigeria",
     points: [
@@ -319,11 +327,13 @@ export default function ResumePage() {
               {e.role} <span>{e.sub}</span>
             </div>
             {e.ctx ? <p className="ctx">{e.ctx}</p> : null}
-            <ul>
-              {e.points.map((p, i) => (
-                <li key={i}>{p}</li>
-              ))}
-            </ul>
+            {e.points.length ? (
+              <ul>
+                {e.points.map((p, i) => (
+                  <li key={i}>{p}</li>
+                ))}
+              </ul>
+            ) : null}
           </div>
         ))}
 

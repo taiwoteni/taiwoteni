@@ -74,7 +74,7 @@ export const CASES: Record<string, CaseStudy> = {
     hero: { src: "/troco-app.png", alt: "Troco app", ph: "// troco-app.png" },
     meta: [
       { lab: "Role", val: "Founding & Senior Engineer" },
-      { lab: "Timeline", val: "Jun 2024 — Present" },
+      { lab: "Timeline", val: "Jun 2024 — Sep 2026" },
       { lab: "Company", val: "Troco Technologies · Lagos" },
       { lab: "Status", val: "Live on Google Play" },
     ],
@@ -370,7 +370,7 @@ export const CASES: Record<string, CaseStudy> = {
     hero: { src: "/khove/web-landing.png", alt: "Khove landing page" },
     meta: [
       { lab: "Role", val: "Founder" },
-      { lab: "Timeline", val: "2026 — present" },
+      { lab: "Timeline", val: "2026 — Sep 2026" },
       { lab: "Type", val: "AI-native developer tooling" },
       { lab: "Status", val: "Live" },
     ],
@@ -670,7 +670,7 @@ export const CASES: Record<string, CaseStudy> = {
     hero: { src: "/orems.png", alt: "Orems platform", ph: "// orems.png" },
     meta: [
       { lab: "Role", val: "Lead / Founding Engineer" },
-      { lab: "Timeline", val: "Mar 2025 — Present" },
+      { lab: "Timeline", val: "Mar 2025 — Sep 2026" },
       { lab: "Company", val: "Orems Cybernetics · Lagos" },
       { lab: "Status", val: "Zero to launch" },
     ],
